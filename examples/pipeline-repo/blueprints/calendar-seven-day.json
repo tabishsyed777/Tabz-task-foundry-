@@ -1,0 +1,13 @@
+{
+  "id": "calendar-seven-day",
+  "family": "windows",
+  "split": "test",
+  "title": "Compute a seven-calendar-day total",
+  "contract": "Given an ISO date as_of and dated integer-value records, sum values on the seven calendar dates ending at as_of, inclusive. Ignore future and older records; duplicate dates all contribute.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/calendar-seven-day.py",
+  "reference": "reference/calendar-seven-day.py",
+  "cases": "data/calendar-seven-day.json"
+}

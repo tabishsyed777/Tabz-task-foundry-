@@ -1,0 +1,331 @@
+[
+  {
+    "id": "case-7",
+    "visibility": "visible",
+    "input": {
+      "customers": [
+        {
+          "tenant": "a",
+          "id": "1",
+          "name": "Ada41"
+        },
+        {
+          "tenant": "b",
+          "id": "1",
+          "name": "Ben"
+        }
+      ],
+      "orders": [
+        {
+          "tenant": "a",
+          "customer_id": "1"
+        },
+        {
+          "tenant": "c",
+          "customer_id": "1"
+        }
+      ]
+    },
+    "expected": [
+      "Ada41",
+      null
+    ]
+  },
+  {
+    "id": "case-19",
+    "visibility": "visible",
+    "input": {
+      "customers": [
+        {
+          "tenant": "a",
+          "id": "1",
+          "name": "Ada86"
+        },
+        {
+          "tenant": "b",
+          "id": "1",
+          "name": "Ben"
+        }
+      ],
+      "orders": [
+        {
+          "tenant": "a",
+          "customer_id": "1"
+        },
+        {
+          "tenant": "c",
+          "customer_id": "1"
+        }
+      ]
+    },
+    "expected": [
+      "Ada86",
+      null
+    ]
+  },
+  {
+    "id": "case-101",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "tenant": "a",
+          "id": "1",
+          "name": "Ada74"
+        },
+        {
+          "tenant": "b",
+          "id": "1",
+          "name": "Ben"
+        }
+      ],
+      "orders": [
+        {
+          "tenant": "a",
+          "customer_id": "1"
+        },
+        {
+          "tenant": "c",
+          "customer_id": "1"
+        }
+      ]
+    },
+    "expected": [
+      "Ada74",
+      null
+    ]
+  },
+  {
+    "id": "case-103",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "tenant": "a",
+          "id": "1",
+          "name": "Ada91"
+        },
+        {
+          "tenant": "b",
+          "id": "1",
+          "name": "Ben"
+        }
+      ],
+      "orders": [
+        {
+          "tenant": "a",
+          "customer_id": "1"
+        },
+        {
+          "tenant": "c",
+          "customer_id": "1"
+        }
+      ]
+    },
+    "expected": [
+      "Ada91",
+      null
+    ]
+  },
+  {
+    "id": "case-107",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "tenant": "a",
+          "id": "1",
+          "name": "Ada31"
+        },
+        {
+          "tenant": "b",
+          "id": "1",
+          "name": "Ben"
+        }
+      ],
+      "orders": [
+        {
+          "tenant": "a",
+          "customer_id": "1"
+        },
+        {
+          "tenant": "c",
+          "customer_id": "1"
+        }
+      ]
+    },
+    "expected": [
+      "Ada31",
+      null
+    ]
+  },
+  {
+    "id": "case-109",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "tenant": "a",
+          "id": "1",
+          "name": "Ada35"
+        },
+        {
+          "tenant": "b",
+          "id": "1",
+          "name": "Ben"
+        }
+      ],
+      "orders": [
+        {
+          "tenant": "a",
+          "customer_id": "1"
+        },
+        {
+          "tenant": "c",
+          "customer_id": "1"
+        }
+      ]
+    },
+    "expected": [
+      "Ada35",
+      null
+    ]
+  },
+  {
+    "id": "case-113",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "tenant": "a",
+          "id": "1",
+          "name": "Ada3"
+        },
+        {
+          "tenant": "b",
+          "id": "1",
+          "name": "Ben"
+        }
+      ],
+      "orders": [
+        {
+          "tenant": "a",
+          "customer_id": "1"
+        },
+        {
+          "tenant": "c",
+          "customer_id": "1"
+        }
+      ]
+    },
+    "expected": [
+      "Ada3",
+      null
+    ]
+  },
+  {
+    "id": "case-127",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "tenant": "a",
+          "id": "1",
+          "name": "Ada5"
+        },
+        {
+          "tenant": "b",
+          "id": "1",
+          "name": "Ben"
+        }
+      ],
+      "orders": [
+        {
+          "tenant": "a",
+          "customer_id": "1"
+        },
+        {
+          "tenant": "c",
+          "customer_id": "1"
+        }
+      ]
+    },
+    "expected": [
+      "Ada5",
+      null
+    ]
+  },
+  {
+    "id": "case-131",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "tenant": "a",
+          "id": "1",
+          "name": "Ada40"
+        },
+        {
+          "tenant": "b",
+          "id": "1",
+          "name": "Ben"
+        }
+      ],
+      "orders": [
+        {
+          "tenant": "a",
+          "customer_id": "1"
+        },
+        {
+          "tenant": "c",
+          "customer_id": "1"
+        }
+      ]
+    },
+    "expected": [
+      "Ada40",
+      null
+    ]
+  },
+  {
+    "id": "case-137",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "tenant": "a",
+          "id": "1",
+          "name": "Ada9"
+        },
+        {
+          "tenant": "b",
+          "id": "1",
+          "name": "Ben"
+        }
+      ],
+      "orders": [
+        {
+          "tenant": "a",
+          "customer_id": "1"
+        },
+        {
+          "tenant": "c",
+          "customer_id": "1"
+        }
+      ]
+    },
+    "expected": [
+      "Ada9",
+      null
+    ]
+  },
+  {
+    "id": "boundary-empty",
+    "visibility": "heldout",
+    "input": {
+      "customers": [],
+      "orders": []
+    },
+    "expected": []
+  }
+]

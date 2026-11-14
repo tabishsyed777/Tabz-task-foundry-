@@ -1,0 +1,13 @@
+{
+  "id": "quantity-alias",
+  "family": "schema",
+  "split": "test",
+  "title": "Respect an explicit zero in a renamed field",
+  "contract": "For each record return quantity if the quantity key is present, otherwise qty if present, otherwise 1. Explicit zero and null values must be preserved.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/quantity-alias.py",
+  "reference": "reference/quantity-alias.py",
+  "cases": "data/quantity-alias.json"
+}

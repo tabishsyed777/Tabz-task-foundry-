@@ -1,0 +1,11 @@
+{
+  "recorded_at": "2026-11-14",
+  "tool": "harbor",
+  "harbor_version": "0.26.0",
+  "task": "latest-record",
+  "agent": "oracle",
+  "verifier_environment_mode": "separate",
+  "reward": 1.0,
+  "status": "passed",
+  "scope": "One local-Docker compatibility run. The direct TaskFoundry Docker evaluator is the network-isolated evidence path."
+}

@@ -1,0 +1,321 @@
+[
+  {
+    "id": "case-7",
+    "visibility": "visible",
+    "input": {
+      "customers": [
+        {
+          "id": "c",
+          "version": 4,
+          "segment": "premium41"
+        },
+        {
+          "id": "c",
+          "version": 1,
+          "segment": "old"
+        }
+      ],
+      "orders": [
+        {
+          "id": "o",
+          "customer_id": "c"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "o",
+        "segment": "premium41"
+      }
+    ]
+  },
+  {
+    "id": "case-19",
+    "visibility": "visible",
+    "input": {
+      "customers": [
+        {
+          "id": "c",
+          "version": 4,
+          "segment": "premium86"
+        },
+        {
+          "id": "c",
+          "version": 1,
+          "segment": "old"
+        }
+      ],
+      "orders": [
+        {
+          "id": "o",
+          "customer_id": "c"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "o",
+        "segment": "premium86"
+      }
+    ]
+  },
+  {
+    "id": "case-101",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "id": "c",
+          "version": 4,
+          "segment": "premium74"
+        },
+        {
+          "id": "c",
+          "version": 1,
+          "segment": "old"
+        }
+      ],
+      "orders": [
+        {
+          "id": "o",
+          "customer_id": "c"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "o",
+        "segment": "premium74"
+      }
+    ]
+  },
+  {
+    "id": "case-103",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "id": "c",
+          "version": 4,
+          "segment": "premium91"
+        },
+        {
+          "id": "c",
+          "version": 1,
+          "segment": "old"
+        }
+      ],
+      "orders": [
+        {
+          "id": "o",
+          "customer_id": "c"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "o",
+        "segment": "premium91"
+      }
+    ]
+  },
+  {
+    "id": "case-107",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "id": "c",
+          "version": 4,
+          "segment": "premium31"
+        },
+        {
+          "id": "c",
+          "version": 1,
+          "segment": "old"
+        }
+      ],
+      "orders": [
+        {
+          "id": "o",
+          "customer_id": "c"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "o",
+        "segment": "premium31"
+      }
+    ]
+  },
+  {
+    "id": "case-109",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "id": "c",
+          "version": 4,
+          "segment": "premium35"
+        },
+        {
+          "id": "c",
+          "version": 1,
+          "segment": "old"
+        }
+      ],
+      "orders": [
+        {
+          "id": "o",
+          "customer_id": "c"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "o",
+        "segment": "premium35"
+      }
+    ]
+  },
+  {
+    "id": "case-113",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "id": "c",
+          "version": 4,
+          "segment": "premium3"
+        },
+        {
+          "id": "c",
+          "version": 1,
+          "segment": "old"
+        }
+      ],
+      "orders": [
+        {
+          "id": "o",
+          "customer_id": "c"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "o",
+        "segment": "premium3"
+      }
+    ]
+  },
+  {
+    "id": "case-127",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "id": "c",
+          "version": 4,
+          "segment": "premium5"
+        },
+        {
+          "id": "c",
+          "version": 1,
+          "segment": "old"
+        }
+      ],
+      "orders": [
+        {
+          "id": "o",
+          "customer_id": "c"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "o",
+        "segment": "premium5"
+      }
+    ]
+  },
+  {
+    "id": "case-131",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "id": "c",
+          "version": 4,
+          "segment": "premium40"
+        },
+        {
+          "id": "c",
+          "version": 1,
+          "segment": "old"
+        }
+      ],
+      "orders": [
+        {
+          "id": "o",
+          "customer_id": "c"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "o",
+        "segment": "premium40"
+      }
+    ]
+  },
+  {
+    "id": "case-137",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "id": "c",
+          "version": 4,
+          "segment": "premium9"
+        },
+        {
+          "id": "c",
+          "version": 1,
+          "segment": "old"
+        }
+      ],
+      "orders": [
+        {
+          "id": "o",
+          "customer_id": "c"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "o",
+        "segment": "premium9"
+      }
+    ]
+  },
+  {
+    "id": "boundary-empty",
+    "visibility": "heldout",
+    "input": {
+      "customers": [],
+      "orders": [
+        {
+          "id": "x",
+          "customer_id": "unknown"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "x",
+        "segment": null
+      }
+    ]
+  }
+]

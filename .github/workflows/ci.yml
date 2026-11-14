@@ -1,0 +1,32 @@
+name: TaskFoundry checks
+on: [push, pull_request]
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install -e '.[dev]'
+      - run: taskfoundry build-catalog
+      - run: pytest -q
+      - run: taskfoundry validate --engine process --repeat 2 --output artifacts/validation-process.json
+      - run: taskfoundry export-harbor
+  containers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -e '.[dev]'
+      - run: taskfoundry build-catalog
+      - run: taskfoundry build-image
+      - run: taskfoundry validate --engine docker --repeat 1 --output artifacts/validation-docker.json
+      - run: pip install 'harbor==0.26.0'
+      - run: taskfoundry export-harbor
+      - run: harbor run --agent oracle --path exports/harbor/latest-record --jobs-dir runs/harbor --n-concurrent 1 --yes

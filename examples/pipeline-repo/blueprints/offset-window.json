@@ -1,0 +1,13 @@
+{
+  "id": "offset-window",
+  "family": "timezones",
+  "split": "train",
+  "title": "Filter a UTC time window",
+  "contract": "Return IDs, in input order, whose offset-aware timestamps are in [start,end). Start and end also have explicit offsets.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/offset-window.py",
+  "reference": "reference/offset-window.py",
+  "cases": "data/offset-window.json"
+}

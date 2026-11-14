@@ -1,0 +1,410 @@
+[
+  {
+    "id": "case-7",
+    "visibility": "visible",
+    "input": {
+      "rows": [
+        {
+          "id": "a",
+          "version": 3,
+          "value": 51
+        },
+        {
+          "id": "a",
+          "version": 1,
+          "value": 0
+        },
+        {
+          "id": "b",
+          "version": 2,
+          "value": 52
+        },
+        {
+          "id": "a",
+          "version": 3,
+          "value": 53
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "a",
+        "version": 3,
+        "value": 53
+      },
+      {
+        "id": "b",
+        "version": 2,
+        "value": 52
+      }
+    ]
+  },
+  {
+    "id": "case-19",
+    "visibility": "visible",
+    "input": {
+      "rows": [
+        {
+          "id": "a",
+          "version": 3,
+          "value": 15
+        },
+        {
+          "id": "a",
+          "version": 1,
+          "value": 0
+        },
+        {
+          "id": "b",
+          "version": 2,
+          "value": 16
+        },
+        {
+          "id": "a",
+          "version": 3,
+          "value": 17
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "a",
+        "version": 3,
+        "value": 17
+      },
+      {
+        "id": "b",
+        "version": 2,
+        "value": 16
+      }
+    ]
+  },
+  {
+    "id": "case-101",
+    "visibility": "heldout",
+    "input": {
+      "rows": [
+        {
+          "id": "a",
+          "version": 3,
+          "value": 84
+        },
+        {
+          "id": "a",
+          "version": 1,
+          "value": 0
+        },
+        {
+          "id": "b",
+          "version": 2,
+          "value": 85
+        },
+        {
+          "id": "a",
+          "version": 3,
+          "value": 86
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "a",
+        "version": 3,
+        "value": 86
+      },
+      {
+        "id": "b",
+        "version": 2,
+        "value": 85
+      }
+    ]
+  },
+  {
+    "id": "case-103",
+    "visibility": "heldout",
+    "input": {
+      "rows": [
+        {
+          "id": "a",
+          "version": 3,
+          "value": 68
+        },
+        {
+          "id": "a",
+          "version": 1,
+          "value": 0
+        },
+        {
+          "id": "b",
+          "version": 2,
+          "value": 69
+        },
+        {
+          "id": "a",
+          "version": 3,
+          "value": 70
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "a",
+        "version": 3,
+        "value": 70
+      },
+      {
+        "id": "b",
+        "version": 2,
+        "value": 69
+      }
+    ]
+  },
+  {
+    "id": "case-107",
+    "visibility": "heldout",
+    "input": {
+      "rows": [
+        {
+          "id": "a",
+          "version": 3,
+          "value": 41
+        },
+        {
+          "id": "a",
+          "version": 1,
+          "value": 0
+        },
+        {
+          "id": "b",
+          "version": 2,
+          "value": 42
+        },
+        {
+          "id": "a",
+          "version": 3,
+          "value": 43
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "a",
+        "version": 3,
+        "value": 43
+      },
+      {
+        "id": "b",
+        "version": 2,
+        "value": 42
+      }
+    ]
+  },
+  {
+    "id": "case-109",
+    "visibility": "heldout",
+    "input": {
+      "rows": [
+        {
+          "id": "a",
+          "version": 3,
+          "value": 45
+        },
+        {
+          "id": "a",
+          "version": 1,
+          "value": 0
+        },
+        {
+          "id": "b",
+          "version": 2,
+          "value": 46
+        },
+        {
+          "id": "a",
+          "version": 3,
+          "value": 47
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "a",
+        "version": 3,
+        "value": 47
+      },
+      {
+        "id": "b",
+        "version": 2,
+        "value": 46
+      }
+    ]
+  },
+  {
+    "id": "case-113",
+    "visibility": "heldout",
+    "input": {
+      "rows": [
+        {
+          "id": "a",
+          "version": 3,
+          "value": 13
+        },
+        {
+          "id": "a",
+          "version": 1,
+          "value": 0
+        },
+        {
+          "id": "b",
+          "version": 2,
+          "value": 14
+        },
+        {
+          "id": "a",
+          "version": 3,
+          "value": 15
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "a",
+        "version": 3,
+        "value": 15
+      },
+      {
+        "id": "b",
+        "version": 2,
+        "value": 14
+      }
+    ]
+  },
+  {
+    "id": "case-127",
+    "visibility": "heldout",
+    "input": {
+      "rows": [
+        {
+          "id": "a",
+          "version": 3,
+          "value": 15
+        },
+        {
+          "id": "a",
+          "version": 1,
+          "value": 0
+        },
+        {
+          "id": "b",
+          "version": 2,
+          "value": 16
+        },
+        {
+          "id": "a",
+          "version": 3,
+          "value": 17
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "a",
+        "version": 3,
+        "value": 17
+      },
+      {
+        "id": "b",
+        "version": 2,
+        "value": 16
+      }
+    ]
+  },
+  {
+    "id": "case-131",
+    "visibility": "heldout",
+    "input": {
+      "rows": [
+        {
+          "id": "a",
+          "version": 3,
+          "value": 50
+        },
+        {
+          "id": "a",
+          "version": 1,
+          "value": 0
+        },
+        {
+          "id": "b",
+          "version": 2,
+          "value": 51
+        },
+        {
+          "id": "a",
+          "version": 3,
+          "value": 52
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "a",
+        "version": 3,
+        "value": 52
+      },
+      {
+        "id": "b",
+        "version": 2,
+        "value": 51
+      }
+    ]
+  },
+  {
+    "id": "case-137",
+    "visibility": "heldout",
+    "input": {
+      "rows": [
+        {
+          "id": "a",
+          "version": 3,
+          "value": 19
+        },
+        {
+          "id": "a",
+          "version": 1,
+          "value": 0
+        },
+        {
+          "id": "b",
+          "version": 2,
+          "value": 20
+        },
+        {
+          "id": "a",
+          "version": 3,
+          "value": 21
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "a",
+        "version": 3,
+        "value": 21
+      },
+      {
+        "id": "b",
+        "version": 2,
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": "boundary-empty",
+    "visibility": "heldout",
+    "input": {
+      "rows": []
+    },
+    "expected": []
+  }
+]

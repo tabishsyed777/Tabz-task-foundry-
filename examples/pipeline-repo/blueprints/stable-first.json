@@ -1,0 +1,13 @@
+{
+  "id": "stable-first",
+  "family": "deduplication",
+  "split": "train",
+  "title": "Preserve the first event per ID",
+  "contract": "Return the first row for each id, preserving the order in which distinct IDs first appeared. Later duplicate rows must not replace the first.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/stable-first.py",
+  "reference": "reference/stable-first.py",
+  "cases": "data/stable-first.json"
+}

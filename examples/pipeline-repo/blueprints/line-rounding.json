@@ -1,0 +1,13 @@
+{
+  "id": "line-rounding",
+  "family": "money",
+  "split": "train",
+  "title": "Round each invoice line correctly",
+  "contract": "Input prices are nonnegative decimal strings. Round each price to cents using ROUND_HALF_UP, then sum the integer cents. Do not round only the final sum.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/line-rounding.py",
+  "reference": "reference/line-rounding.py",
+  "cases": "data/line-rounding.json"
+}

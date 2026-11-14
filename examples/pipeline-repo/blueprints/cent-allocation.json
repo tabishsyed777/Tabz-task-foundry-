@@ -1,0 +1,13 @@
+{
+  "id": "cent-allocation",
+  "family": "money",
+  "split": "train",
+  "title": "Allocate cents without losing the remainder",
+  "contract": "Split nonnegative total_cents equally among positive count recipients. Return an integer list. Give any remainder one cent at a time to the earliest recipients.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/cent-allocation.py",
+  "reference": "reference/cent-allocation.py",
+  "cases": "data/cent-allocation.json"
+}

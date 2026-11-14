@@ -1,0 +1,230 @@
+[
+  {
+    "id": "case-7",
+    "visibility": "visible",
+    "input": {
+      "statuses": [
+        " PAID ",
+        "Settled",
+        " refund ",
+        null,
+        "pending",
+        "mystery41"
+      ]
+    },
+    "expected": [
+      "paid",
+      "paid",
+      "refunded",
+      "unknown",
+      "pending",
+      "unknown"
+    ]
+  },
+  {
+    "id": "case-19",
+    "visibility": "visible",
+    "input": {
+      "statuses": [
+        " PAID ",
+        "Settled",
+        " refund ",
+        null,
+        "pending",
+        "mystery86"
+      ]
+    },
+    "expected": [
+      "paid",
+      "paid",
+      "refunded",
+      "unknown",
+      "pending",
+      "unknown"
+    ]
+  },
+  {
+    "id": "case-101",
+    "visibility": "heldout",
+    "input": {
+      "statuses": [
+        " PAID ",
+        "Settled",
+        " refund ",
+        null,
+        "pending",
+        "mystery74"
+      ]
+    },
+    "expected": [
+      "paid",
+      "paid",
+      "refunded",
+      "unknown",
+      "pending",
+      "unknown"
+    ]
+  },
+  {
+    "id": "case-103",
+    "visibility": "heldout",
+    "input": {
+      "statuses": [
+        " PAID ",
+        "Settled",
+        " refund ",
+        null,
+        "pending",
+        "mystery91"
+      ]
+    },
+    "expected": [
+      "paid",
+      "paid",
+      "refunded",
+      "unknown",
+      "pending",
+      "unknown"
+    ]
+  },
+  {
+    "id": "case-107",
+    "visibility": "heldout",
+    "input": {
+      "statuses": [
+        " PAID ",
+        "Settled",
+        " refund ",
+        null,
+        "pending",
+        "mystery31"
+      ]
+    },
+    "expected": [
+      "paid",
+      "paid",
+      "refunded",
+      "unknown",
+      "pending",
+      "unknown"
+    ]
+  },
+  {
+    "id": "case-109",
+    "visibility": "heldout",
+    "input": {
+      "statuses": [
+        " PAID ",
+        "Settled",
+        " refund ",
+        null,
+        "pending",
+        "mystery35"
+      ]
+    },
+    "expected": [
+      "paid",
+      "paid",
+      "refunded",
+      "unknown",
+      "pending",
+      "unknown"
+    ]
+  },
+  {
+    "id": "case-113",
+    "visibility": "heldout",
+    "input": {
+      "statuses": [
+        " PAID ",
+        "Settled",
+        " refund ",
+        null,
+        "pending",
+        "mystery3"
+      ]
+    },
+    "expected": [
+      "paid",
+      "paid",
+      "refunded",
+      "unknown",
+      "pending",
+      "unknown"
+    ]
+  },
+  {
+    "id": "case-127",
+    "visibility": "heldout",
+    "input": {
+      "statuses": [
+        " PAID ",
+        "Settled",
+        " refund ",
+        null,
+        "pending",
+        "mystery5"
+      ]
+    },
+    "expected": [
+      "paid",
+      "paid",
+      "refunded",
+      "unknown",
+      "pending",
+      "unknown"
+    ]
+  },
+  {
+    "id": "case-131",
+    "visibility": "heldout",
+    "input": {
+      "statuses": [
+        " PAID ",
+        "Settled",
+        " refund ",
+        null,
+        "pending",
+        "mystery40"
+      ]
+    },
+    "expected": [
+      "paid",
+      "paid",
+      "refunded",
+      "unknown",
+      "pending",
+      "unknown"
+    ]
+  },
+  {
+    "id": "case-137",
+    "visibility": "heldout",
+    "input": {
+      "statuses": [
+        " PAID ",
+        "Settled",
+        " refund ",
+        null,
+        "pending",
+        "mystery9"
+      ]
+    },
+    "expected": [
+      "paid",
+      "paid",
+      "refunded",
+      "unknown",
+      "pending",
+      "unknown"
+    ]
+  },
+  {
+    "id": "boundary-empty",
+    "visibility": "heldout",
+    "input": {
+      "statuses": []
+    },
+    "expected": []
+  }
+]

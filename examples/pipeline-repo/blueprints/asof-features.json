@@ -1,0 +1,13 @@
+{
+  "id": "asof-features",
+  "family": "windows",
+  "split": "test",
+  "title": "Prevent future information leaking into features",
+  "contract": "Updates have unique integer t and a value. For each query time, return the value at the greatest update time <= query, or null if none exists. Query order is preserved.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/asof-features.py",
+  "reference": "reference/asof-features.py",
+  "cases": "data/asof-features.json"
+}

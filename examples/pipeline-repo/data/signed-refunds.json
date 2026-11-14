@@ -1,0 +1,250 @@
+[
+  {
+    "id": "case-7",
+    "visibility": "visible",
+    "input": {
+      "transactions": [
+        {
+          "account": "a",
+          "cents": 265
+        },
+        {
+          "account": "a",
+          "cents": -20
+        },
+        {
+          "account": "b",
+          "cents": 0
+        }
+      ]
+    },
+    "expected": {
+      "a": 245,
+      "b": 0
+    }
+  },
+  {
+    "id": "case-19",
+    "visibility": "visible",
+    "input": {
+      "transactions": [
+        {
+          "account": "a",
+          "cents": 446
+        },
+        {
+          "account": "a",
+          "cents": -20
+        },
+        {
+          "account": "b",
+          "cents": 0
+        }
+      ]
+    },
+    "expected": {
+      "a": 426,
+      "b": 0
+    }
+  },
+  {
+    "id": "case-101",
+    "visibility": "heldout",
+    "input": {
+      "transactions": [
+        {
+          "account": "a",
+          "cents": 397
+        },
+        {
+          "account": "a",
+          "cents": -20
+        },
+        {
+          "account": "b",
+          "cents": 0
+        }
+      ]
+    },
+    "expected": {
+      "a": 377,
+      "b": 0
+    }
+  },
+  {
+    "id": "case-103",
+    "visibility": "heldout",
+    "input": {
+      "transactions": [
+        {
+          "account": "a",
+          "cents": 465
+        },
+        {
+          "account": "a",
+          "cents": -20
+        },
+        {
+          "account": "b",
+          "cents": 0
+        }
+      ]
+    },
+    "expected": {
+      "a": 445,
+      "b": 0
+    }
+  },
+  {
+    "id": "case-107",
+    "visibility": "heldout",
+    "input": {
+      "transactions": [
+        {
+          "account": "a",
+          "cents": 226
+        },
+        {
+          "account": "a",
+          "cents": -20
+        },
+        {
+          "account": "b",
+          "cents": 0
+        }
+      ]
+    },
+    "expected": {
+      "a": 206,
+      "b": 0
+    }
+  },
+  {
+    "id": "case-109",
+    "visibility": "heldout",
+    "input": {
+      "transactions": [
+        {
+          "account": "a",
+          "cents": 243
+        },
+        {
+          "account": "a",
+          "cents": -20
+        },
+        {
+          "account": "b",
+          "cents": 0
+        }
+      ]
+    },
+    "expected": {
+      "a": 223,
+      "b": 0
+    }
+  },
+  {
+    "id": "case-113",
+    "visibility": "heldout",
+    "input": {
+      "transactions": [
+        {
+          "account": "a",
+          "cents": 115
+        },
+        {
+          "account": "a",
+          "cents": -20
+        },
+        {
+          "account": "b",
+          "cents": 0
+        }
+      ]
+    },
+    "expected": {
+      "a": 95,
+      "b": 0
+    }
+  },
+  {
+    "id": "case-127",
+    "visibility": "heldout",
+    "input": {
+      "transactions": [
+        {
+          "account": "a",
+          "cents": 122
+        },
+        {
+          "account": "a",
+          "cents": -20
+        },
+        {
+          "account": "b",
+          "cents": 0
+        }
+      ]
+    },
+    "expected": {
+      "a": 102,
+      "b": 0
+    }
+  },
+  {
+    "id": "case-131",
+    "visibility": "heldout",
+    "input": {
+      "transactions": [
+        {
+          "account": "a",
+          "cents": 261
+        },
+        {
+          "account": "a",
+          "cents": -20
+        },
+        {
+          "account": "b",
+          "cents": 0
+        }
+      ]
+    },
+    "expected": {
+      "a": 241,
+      "b": 0
+    }
+  },
+  {
+    "id": "case-137",
+    "visibility": "heldout",
+    "input": {
+      "transactions": [
+        {
+          "account": "a",
+          "cents": 137
+        },
+        {
+          "account": "a",
+          "cents": -20
+        },
+        {
+          "account": "b",
+          "cents": 0
+        }
+      ]
+    },
+    "expected": {
+      "a": 117,
+      "b": 0
+    }
+  },
+  {
+    "id": "boundary-empty",
+    "visibility": "heldout",
+    "input": {
+      "transactions": []
+    },
+    "expected": {}
+  }
+]

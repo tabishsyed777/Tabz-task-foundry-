@@ -1,0 +1,267 @@
+[
+  {
+    "id": "case-7",
+    "visibility": "visible",
+    "input": {
+      "start": 42,
+      "end": 52,
+      "records": [
+        {
+          "id": "start",
+          "t": 42
+        },
+        {
+          "id": "end",
+          "t": 52
+        },
+        {
+          "id": "before",
+          "t": 41
+        }
+      ]
+    },
+    "expected": [
+      "start"
+    ]
+  },
+  {
+    "id": "case-19",
+    "visibility": "visible",
+    "input": {
+      "start": 87,
+      "end": 97,
+      "records": [
+        {
+          "id": "start",
+          "t": 87
+        },
+        {
+          "id": "end",
+          "t": 97
+        },
+        {
+          "id": "before",
+          "t": 86
+        }
+      ]
+    },
+    "expected": [
+      "start"
+    ]
+  },
+  {
+    "id": "case-101",
+    "visibility": "heldout",
+    "input": {
+      "start": 75,
+      "end": 85,
+      "records": [
+        {
+          "id": "start",
+          "t": 75
+        },
+        {
+          "id": "end",
+          "t": 85
+        },
+        {
+          "id": "before",
+          "t": 74
+        }
+      ]
+    },
+    "expected": [
+      "start"
+    ]
+  },
+  {
+    "id": "case-103",
+    "visibility": "heldout",
+    "input": {
+      "start": 92,
+      "end": 102,
+      "records": [
+        {
+          "id": "start",
+          "t": 92
+        },
+        {
+          "id": "end",
+          "t": 102
+        },
+        {
+          "id": "before",
+          "t": 91
+        }
+      ]
+    },
+    "expected": [
+      "start"
+    ]
+  },
+  {
+    "id": "case-107",
+    "visibility": "heldout",
+    "input": {
+      "start": 32,
+      "end": 42,
+      "records": [
+        {
+          "id": "start",
+          "t": 32
+        },
+        {
+          "id": "end",
+          "t": 42
+        },
+        {
+          "id": "before",
+          "t": 31
+        }
+      ]
+    },
+    "expected": [
+      "start"
+    ]
+  },
+  {
+    "id": "case-109",
+    "visibility": "heldout",
+    "input": {
+      "start": 36,
+      "end": 46,
+      "records": [
+        {
+          "id": "start",
+          "t": 36
+        },
+        {
+          "id": "end",
+          "t": 46
+        },
+        {
+          "id": "before",
+          "t": 35
+        }
+      ]
+    },
+    "expected": [
+      "start"
+    ]
+  },
+  {
+    "id": "case-113",
+    "visibility": "heldout",
+    "input": {
+      "start": 4,
+      "end": 14,
+      "records": [
+        {
+          "id": "start",
+          "t": 4
+        },
+        {
+          "id": "end",
+          "t": 14
+        },
+        {
+          "id": "before",
+          "t": 3
+        }
+      ]
+    },
+    "expected": [
+      "start"
+    ]
+  },
+  {
+    "id": "case-127",
+    "visibility": "heldout",
+    "input": {
+      "start": 6,
+      "end": 16,
+      "records": [
+        {
+          "id": "start",
+          "t": 6
+        },
+        {
+          "id": "end",
+          "t": 16
+        },
+        {
+          "id": "before",
+          "t": 5
+        }
+      ]
+    },
+    "expected": [
+      "start"
+    ]
+  },
+  {
+    "id": "case-131",
+    "visibility": "heldout",
+    "input": {
+      "start": 41,
+      "end": 51,
+      "records": [
+        {
+          "id": "start",
+          "t": 41
+        },
+        {
+          "id": "end",
+          "t": 51
+        },
+        {
+          "id": "before",
+          "t": 40
+        }
+      ]
+    },
+    "expected": [
+      "start"
+    ]
+  },
+  {
+    "id": "case-137",
+    "visibility": "heldout",
+    "input": {
+      "start": 10,
+      "end": 20,
+      "records": [
+        {
+          "id": "start",
+          "t": 10
+        },
+        {
+          "id": "end",
+          "t": 20
+        },
+        {
+          "id": "before",
+          "t": 9
+        }
+      ]
+    },
+    "expected": [
+      "start"
+    ]
+  },
+  {
+    "id": "boundary-empty",
+    "visibility": "heldout",
+    "input": {
+      "start": 5,
+      "end": 5,
+      "records": [
+        {
+          "id": "a",
+          "t": 5
+        }
+      ]
+    },
+    "expected": []
+  }
+]

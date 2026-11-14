@@ -1,0 +1,360 @@
+[
+  {
+    "id": "case-7",
+    "visibility": "visible",
+    "input": {
+      "rows": [
+        {
+          "tenant": "east",
+          "id": "1",
+          "value": 0
+        },
+        {
+          "tenant": "west",
+          "id": "1",
+          "value": 43
+        },
+        {
+          "tenant": "east",
+          "id": "1",
+          "value": 42
+        }
+      ]
+    },
+    "expected": [
+      {
+        "tenant": "east",
+        "id": "1",
+        "value": 42
+      },
+      {
+        "tenant": "west",
+        "id": "1",
+        "value": 43
+      }
+    ]
+  },
+  {
+    "id": "case-19",
+    "visibility": "visible",
+    "input": {
+      "rows": [
+        {
+          "tenant": "east",
+          "id": "1",
+          "value": 0
+        },
+        {
+          "tenant": "west",
+          "id": "1",
+          "value": 88
+        },
+        {
+          "tenant": "east",
+          "id": "1",
+          "value": 87
+        }
+      ]
+    },
+    "expected": [
+      {
+        "tenant": "east",
+        "id": "1",
+        "value": 87
+      },
+      {
+        "tenant": "west",
+        "id": "1",
+        "value": 88
+      }
+    ]
+  },
+  {
+    "id": "case-101",
+    "visibility": "heldout",
+    "input": {
+      "rows": [
+        {
+          "tenant": "east",
+          "id": "1",
+          "value": 0
+        },
+        {
+          "tenant": "west",
+          "id": "1",
+          "value": 76
+        },
+        {
+          "tenant": "east",
+          "id": "1",
+          "value": 75
+        }
+      ]
+    },
+    "expected": [
+      {
+        "tenant": "east",
+        "id": "1",
+        "value": 75
+      },
+      {
+        "tenant": "west",
+        "id": "1",
+        "value": 76
+      }
+    ]
+  },
+  {
+    "id": "case-103",
+    "visibility": "heldout",
+    "input": {
+      "rows": [
+        {
+          "tenant": "east",
+          "id": "1",
+          "value": 0
+        },
+        {
+          "tenant": "west",
+          "id": "1",
+          "value": 93
+        },
+        {
+          "tenant": "east",
+          "id": "1",
+          "value": 92
+        }
+      ]
+    },
+    "expected": [
+      {
+        "tenant": "east",
+        "id": "1",
+        "value": 92
+      },
+      {
+        "tenant": "west",
+        "id": "1",
+        "value": 93
+      }
+    ]
+  },
+  {
+    "id": "case-107",
+    "visibility": "heldout",
+    "input": {
+      "rows": [
+        {
+          "tenant": "east",
+          "id": "1",
+          "value": 0
+        },
+        {
+          "tenant": "west",
+          "id": "1",
+          "value": 33
+        },
+        {
+          "tenant": "east",
+          "id": "1",
+          "value": 32
+        }
+      ]
+    },
+    "expected": [
+      {
+        "tenant": "east",
+        "id": "1",
+        "value": 32
+      },
+      {
+        "tenant": "west",
+        "id": "1",
+        "value": 33
+      }
+    ]
+  },
+  {
+    "id": "case-109",
+    "visibility": "heldout",
+    "input": {
+      "rows": [
+        {
+          "tenant": "east",
+          "id": "1",
+          "value": 0
+        },
+        {
+          "tenant": "west",
+          "id": "1",
+          "value": 37
+        },
+        {
+          "tenant": "east",
+          "id": "1",
+          "value": 36
+        }
+      ]
+    },
+    "expected": [
+      {
+        "tenant": "east",
+        "id": "1",
+        "value": 36
+      },
+      {
+        "tenant": "west",
+        "id": "1",
+        "value": 37
+      }
+    ]
+  },
+  {
+    "id": "case-113",
+    "visibility": "heldout",
+    "input": {
+      "rows": [
+        {
+          "tenant": "east",
+          "id": "1",
+          "value": 0
+        },
+        {
+          "tenant": "west",
+          "id": "1",
+          "value": 5
+        },
+        {
+          "tenant": "east",
+          "id": "1",
+          "value": 4
+        }
+      ]
+    },
+    "expected": [
+      {
+        "tenant": "east",
+        "id": "1",
+        "value": 4
+      },
+      {
+        "tenant": "west",
+        "id": "1",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "case-127",
+    "visibility": "heldout",
+    "input": {
+      "rows": [
+        {
+          "tenant": "east",
+          "id": "1",
+          "value": 0
+        },
+        {
+          "tenant": "west",
+          "id": "1",
+          "value": 7
+        },
+        {
+          "tenant": "east",
+          "id": "1",
+          "value": 6
+        }
+      ]
+    },
+    "expected": [
+      {
+        "tenant": "east",
+        "id": "1",
+        "value": 6
+      },
+      {
+        "tenant": "west",
+        "id": "1",
+        "value": 7
+      }
+    ]
+  },
+  {
+    "id": "case-131",
+    "visibility": "heldout",
+    "input": {
+      "rows": [
+        {
+          "tenant": "east",
+          "id": "1",
+          "value": 0
+        },
+        {
+          "tenant": "west",
+          "id": "1",
+          "value": 42
+        },
+        {
+          "tenant": "east",
+          "id": "1",
+          "value": 41
+        }
+      ]
+    },
+    "expected": [
+      {
+        "tenant": "east",
+        "id": "1",
+        "value": 41
+      },
+      {
+        "tenant": "west",
+        "id": "1",
+        "value": 42
+      }
+    ]
+  },
+  {
+    "id": "case-137",
+    "visibility": "heldout",
+    "input": {
+      "rows": [
+        {
+          "tenant": "east",
+          "id": "1",
+          "value": 0
+        },
+        {
+          "tenant": "west",
+          "id": "1",
+          "value": 11
+        },
+        {
+          "tenant": "east",
+          "id": "1",
+          "value": 10
+        }
+      ]
+    },
+    "expected": [
+      {
+        "tenant": "east",
+        "id": "1",
+        "value": 10
+      },
+      {
+        "tenant": "west",
+        "id": "1",
+        "value": 11
+      }
+    ]
+  },
+  {
+    "id": "boundary-empty",
+    "visibility": "heldout",
+    "input": {
+      "rows": []
+    },
+    "expected": []
+  }
+]

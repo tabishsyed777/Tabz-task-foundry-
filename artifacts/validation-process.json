@@ -1,0 +1,6428 @@
+{
+  "engine": "process",
+  "tasks": 24,
+  "repeat": 2,
+  "runs": 96,
+  "reference_passed": 48,
+  "broken_rejected": 48,
+  "all_expected_outcomes": true,
+  "deterministic": true,
+  "records": [
+    {
+      "task": "latest-record",
+      "family": "deduplication",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "latest-record",
+      "family": "deduplication",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "latest-record",
+      "family": "deduplication",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "latest-record",
+      "family": "deduplication",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "stable-first",
+      "family": "deduplication",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "stable-first",
+      "family": "deduplication",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "stable-first",
+      "family": "deduplication",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "stable-first",
+      "family": "deduplication",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "event-idempotency",
+      "family": "deduplication",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "event-idempotency",
+      "family": "deduplication",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "event-idempotency",
+      "family": "deduplication",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "event-idempotency",
+      "family": "deduplication",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "composite-identity",
+      "family": "deduplication",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "composite-identity",
+      "family": "deduplication",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "composite-identity",
+      "family": "deduplication",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "composite-identity",
+      "family": "deduplication",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "utc-day",
+      "family": "timezones",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "utc-day",
+      "family": "timezones",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "utc-day",
+      "family": "timezones",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "utc-day",
+      "family": "timezones",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "elapsed-time",
+      "family": "timezones",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "elapsed-time",
+      "family": "timezones",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "elapsed-time",
+      "family": "timezones",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "elapsed-time",
+      "family": "timezones",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "instant-sort",
+      "family": "timezones",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "instant-sort",
+      "family": "timezones",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "instant-sort",
+      "family": "timezones",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "instant-sort",
+      "family": "timezones",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "offset-window",
+      "family": "timezones",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "offset-window",
+      "family": "timezones",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "offset-window",
+      "family": "timezones",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "offset-window",
+      "family": "timezones",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "line-rounding",
+      "family": "money",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "line-rounding",
+      "family": "money",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "line-rounding",
+      "family": "money",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "line-rounding",
+      "family": "money",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "discount-basis-points",
+      "family": "money",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "discount-basis-points",
+      "family": "money",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "discount-basis-points",
+      "family": "money",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "discount-basis-points",
+      "family": "money",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "cent-allocation",
+      "family": "money",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "cent-allocation",
+      "family": "money",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "cent-allocation",
+      "family": "money",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "cent-allocation",
+      "family": "money",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "signed-refunds",
+      "family": "money",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "signed-refunds",
+      "family": "money",
+      "split": "train",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "signed-refunds",
+      "family": "money",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "signed-refunds",
+      "family": "money",
+      "split": "train",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "left-enrichment",
+      "family": "joins",
+      "split": "validation",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "left-enrichment",
+      "family": "joins",
+      "split": "validation",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "left-enrichment",
+      "family": "joins",
+      "split": "validation",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "left-enrichment",
+      "family": "joins",
+      "split": "validation",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "latest-dimension",
+      "family": "joins",
+      "split": "validation",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "latest-dimension",
+      "family": "joins",
+      "split": "validation",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "latest-dimension",
+      "family": "joins",
+      "split": "validation",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "latest-dimension",
+      "family": "joins",
+      "split": "validation",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "join-multiplication",
+      "family": "joins",
+      "split": "validation",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "join-multiplication",
+      "family": "joins",
+      "split": "validation",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "join-multiplication",
+      "family": "joins",
+      "split": "validation",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "join-multiplication",
+      "family": "joins",
+      "split": "validation",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "tenant-join",
+      "family": "joins",
+      "split": "validation",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "tenant-join",
+      "family": "joins",
+      "split": "validation",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "tenant-join",
+      "family": "joins",
+      "split": "validation",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "tenant-join",
+      "family": "joins",
+      "split": "validation",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "half-open",
+      "family": "windows",
+      "split": "test",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 0,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": false
+        }
+      ]
+    },
+    {
+      "task": "half-open",
+      "family": "windows",
+      "split": "test",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 0,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": false
+        }
+      ]
+    },
+    {
+      "task": "half-open",
+      "family": "windows",
+      "split": "test",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "half-open",
+      "family": "windows",
+      "split": "test",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "session-gap",
+      "family": "windows",
+      "split": "test",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "session-gap",
+      "family": "windows",
+      "split": "test",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "session-gap",
+      "family": "windows",
+      "split": "test",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "session-gap",
+      "family": "windows",
+      "split": "test",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "calendar-seven-day",
+      "family": "windows",
+      "split": "test",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "calendar-seven-day",
+      "family": "windows",
+      "split": "test",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "calendar-seven-day",
+      "family": "windows",
+      "split": "test",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "calendar-seven-day",
+      "family": "windows",
+      "split": "test",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "asof-features",
+      "family": "windows",
+      "split": "test",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "asof-features",
+      "family": "windows",
+      "split": "test",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "asof-features",
+      "family": "windows",
+      "split": "test",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "asof-features",
+      "family": "windows",
+      "split": "test",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "quantity-alias",
+      "family": "schema",
+      "split": "test",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "quantity-alias",
+      "family": "schema",
+      "split": "test",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "quantity-alias",
+      "family": "schema",
+      "split": "test",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "quantity-alias",
+      "family": "schema",
+      "split": "test",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "nullable-integer",
+      "family": "schema",
+      "split": "test",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "nullable-integer",
+      "family": "schema",
+      "split": "test",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "nullable-integer",
+      "family": "schema",
+      "split": "test",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "nullable-integer",
+      "family": "schema",
+      "split": "test",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "nested-country",
+      "family": "schema",
+      "split": "test",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 0,
+      "total_cases": 11,
+      "error": "candidate_error",
+      "details": "Traceback (most recent call last):\n  File \"/workspace/work/taskfoundry/taskfoundry/runner.py\", line 22, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/work/taskfoundry/taskfoundry/runner.py\", line 19, in main\n    outputs=[transform(item) for item in inputs]\n             ^^^^^^^^^^^^^^^\n  File \"/tmp/taskfoundry-candidate-8cpdzr4k/pipeline.py\", line 8, in transform\n    address=user.get('address',{});country=address.get('country')\n                                           ^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'get'\n"
+    },
+    {
+      "task": "nested-country",
+      "family": "schema",
+      "split": "test",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 0,
+      "total_cases": 11,
+      "error": "candidate_error",
+      "details": "Traceback (most recent call last):\n  File \"/workspace/work/taskfoundry/taskfoundry/runner.py\", line 22, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/workspace/work/taskfoundry/taskfoundry/runner.py\", line 19, in main\n    outputs=[transform(item) for item in inputs]\n             ^^^^^^^^^^^^^^^\n  File \"/tmp/taskfoundry-candidate-47kxuffl/pipeline.py\", line 8, in transform\n    address=user.get('address',{});country=address.get('country')\n                                           ^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'get'\n"
+    },
+    {
+      "task": "nested-country",
+      "family": "schema",
+      "split": "test",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "nested-country",
+      "family": "schema",
+      "split": "test",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "status-normalization",
+      "family": "schema",
+      "split": "test",
+      "variant": "broken",
+      "repeat": 0,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "status-normalization",
+      "family": "schema",
+      "split": "test",
+      "variant": "broken",
+      "repeat": 1,
+      "passed": false,
+      "passed_cases": 1,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": false
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": false
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "status-normalization",
+      "family": "schema",
+      "split": "test",
+      "variant": "reference",
+      "repeat": 0,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "task": "status-normalization",
+      "family": "schema",
+      "split": "test",
+      "variant": "reference",
+      "repeat": 1,
+      "passed": true,
+      "passed_cases": 11,
+      "total_cases": 11,
+      "error": null,
+      "cases": [
+        {
+          "id": "case-7",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-19",
+          "visibility": "visible",
+          "passed": true
+        },
+        {
+          "id": "case-101",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-103",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-107",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-109",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-113",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-127",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-131",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "case-137",
+          "visibility": "heldout",
+          "passed": true
+        },
+        {
+          "id": "boundary-empty",
+          "visibility": "heldout",
+          "passed": true
+        }
+      ]
+    }
+  ]
+}

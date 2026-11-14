@@ -1,0 +1,13 @@
+{
+  "id": "signed-refunds",
+  "family": "money",
+  "split": "train",
+  "title": "Preserve the sign of refund transactions",
+  "contract": "Transactions have account and signed integer cents. Positive entries are charges and negative entries are refunds. Return net cents for every account seen, including net zero.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/signed-refunds.py",
+  "reference": "reference/signed-refunds.py",
+  "cases": "data/signed-refunds.json"
+}

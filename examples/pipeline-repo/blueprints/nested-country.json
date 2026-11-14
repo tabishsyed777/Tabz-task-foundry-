@@ -1,0 +1,13 @@
+{
+  "id": "nested-country",
+  "family": "schema",
+  "split": "test",
+  "title": "Flatten optional addresses without dropping rows",
+  "contract": "Return each user id with country from address.country. Missing/null address or missing/null country becomes \"UNKNOWN\". Preserve user order and non-null country values.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/nested-country.py",
+  "reference": "reference/nested-country.py",
+  "cases": "data/nested-country.json"
+}

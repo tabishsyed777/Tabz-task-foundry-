@@ -1,0 +1,13 @@
+{
+  "id": "join-multiplication",
+  "family": "joins",
+  "split": "validation",
+  "title": "Avoid counting order revenue once per item",
+  "contract": "Orders have unique id and total_cents. Items have order_id. Return revenue_cents summed once per order, and item_count for items whose order exists. Ignore orphan items.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/join-multiplication.py",
+  "reference": "reference/join-multiplication.py",
+  "cases": "data/join-multiplication.json"
+}

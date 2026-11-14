@@ -1,0 +1,13 @@
+{
+  "id": "event-idempotency",
+  "family": "deduplication",
+  "split": "train",
+  "title": "Do not double-count retried purchases",
+  "contract": "Events contain event_id, customer, and integer cents. An event_id may repeat with an identical payload. Count it once globally. Return a mapping of customer to total cents.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/event-idempotency.py",
+  "reference": "reference/event-idempotency.py",
+  "cases": "data/event-idempotency.json"
+}

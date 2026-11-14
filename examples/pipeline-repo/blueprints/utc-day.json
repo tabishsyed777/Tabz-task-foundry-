@@ -1,0 +1,13 @@
+{
+  "id": "utc-day",
+  "family": "timezones",
+  "split": "train",
+  "title": "Aggregate events by UTC calendar day",
+  "contract": "Each event has an ISO-8601 timestamp with an explicit offset and integer value. Sum values by UTC date and return a date-to-total mapping. Z means UTC.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/utc-day.py",
+  "reference": "reference/utc-day.py",
+  "cases": "data/utc-day.json"
+}

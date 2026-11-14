@@ -1,0 +1,13 @@
+{
+  "id": "left-enrichment",
+  "family": "joins",
+  "split": "validation",
+  "title": "Keep orders whose customer is unknown",
+  "contract": "Customers have unique id and name. Orders have id, customer_id, cents. Return every order in input order with customer_name added; use null for an unknown customer.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/left-enrichment.py",
+  "reference": "reference/left-enrichment.py",
+  "cases": "data/left-enrichment.json"
+}

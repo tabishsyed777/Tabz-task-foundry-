@@ -1,0 +1,13 @@
+{
+  "id": "instant-sort",
+  "family": "timezones",
+  "split": "train",
+  "title": "Sort events by actual instant",
+  "contract": "Sort events by their ISO timestamp interpreted as an instant, breaking ties by id. Return only event IDs. Every timestamp includes an offset.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/instant-sort.py",
+  "reference": "reference/instant-sort.py",
+  "cases": "data/instant-sort.json"
+}

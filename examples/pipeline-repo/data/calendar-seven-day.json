@@ -1,0 +1,271 @@
+[
+  {
+    "id": "case-7",
+    "visibility": "visible",
+    "input": {
+      "as_of": "2025-01-10",
+      "records": [
+        {
+          "date": "2025-01-03",
+          "value": 99
+        },
+        {
+          "date": "2025-01-04",
+          "value": 42
+        },
+        {
+          "date": "2025-01-10",
+          "value": 2
+        },
+        {
+          "date": "2025-01-11",
+          "value": 50
+        }
+      ]
+    },
+    "expected": 44
+  },
+  {
+    "id": "case-19",
+    "visibility": "visible",
+    "input": {
+      "as_of": "2025-01-10",
+      "records": [
+        {
+          "date": "2025-01-03",
+          "value": 99
+        },
+        {
+          "date": "2025-01-04",
+          "value": 87
+        },
+        {
+          "date": "2025-01-10",
+          "value": 2
+        },
+        {
+          "date": "2025-01-11",
+          "value": 50
+        }
+      ]
+    },
+    "expected": 89
+  },
+  {
+    "id": "case-101",
+    "visibility": "heldout",
+    "input": {
+      "as_of": "2025-01-10",
+      "records": [
+        {
+          "date": "2025-01-03",
+          "value": 99
+        },
+        {
+          "date": "2025-01-04",
+          "value": 75
+        },
+        {
+          "date": "2025-01-10",
+          "value": 2
+        },
+        {
+          "date": "2025-01-11",
+          "value": 50
+        }
+      ]
+    },
+    "expected": 77
+  },
+  {
+    "id": "case-103",
+    "visibility": "heldout",
+    "input": {
+      "as_of": "2025-01-10",
+      "records": [
+        {
+          "date": "2025-01-03",
+          "value": 99
+        },
+        {
+          "date": "2025-01-04",
+          "value": 92
+        },
+        {
+          "date": "2025-01-10",
+          "value": 2
+        },
+        {
+          "date": "2025-01-11",
+          "value": 50
+        }
+      ]
+    },
+    "expected": 94
+  },
+  {
+    "id": "case-107",
+    "visibility": "heldout",
+    "input": {
+      "as_of": "2025-01-10",
+      "records": [
+        {
+          "date": "2025-01-03",
+          "value": 99
+        },
+        {
+          "date": "2025-01-04",
+          "value": 32
+        },
+        {
+          "date": "2025-01-10",
+          "value": 2
+        },
+        {
+          "date": "2025-01-11",
+          "value": 50
+        }
+      ]
+    },
+    "expected": 34
+  },
+  {
+    "id": "case-109",
+    "visibility": "heldout",
+    "input": {
+      "as_of": "2025-01-10",
+      "records": [
+        {
+          "date": "2025-01-03",
+          "value": 99
+        },
+        {
+          "date": "2025-01-04",
+          "value": 36
+        },
+        {
+          "date": "2025-01-10",
+          "value": 2
+        },
+        {
+          "date": "2025-01-11",
+          "value": 50
+        }
+      ]
+    },
+    "expected": 38
+  },
+  {
+    "id": "case-113",
+    "visibility": "heldout",
+    "input": {
+      "as_of": "2025-01-10",
+      "records": [
+        {
+          "date": "2025-01-03",
+          "value": 99
+        },
+        {
+          "date": "2025-01-04",
+          "value": 4
+        },
+        {
+          "date": "2025-01-10",
+          "value": 2
+        },
+        {
+          "date": "2025-01-11",
+          "value": 50
+        }
+      ]
+    },
+    "expected": 6
+  },
+  {
+    "id": "case-127",
+    "visibility": "heldout",
+    "input": {
+      "as_of": "2025-01-10",
+      "records": [
+        {
+          "date": "2025-01-03",
+          "value": 99
+        },
+        {
+          "date": "2025-01-04",
+          "value": 6
+        },
+        {
+          "date": "2025-01-10",
+          "value": 2
+        },
+        {
+          "date": "2025-01-11",
+          "value": 50
+        }
+      ]
+    },
+    "expected": 8
+  },
+  {
+    "id": "case-131",
+    "visibility": "heldout",
+    "input": {
+      "as_of": "2025-01-10",
+      "records": [
+        {
+          "date": "2025-01-03",
+          "value": 99
+        },
+        {
+          "date": "2025-01-04",
+          "value": 41
+        },
+        {
+          "date": "2025-01-10",
+          "value": 2
+        },
+        {
+          "date": "2025-01-11",
+          "value": 50
+        }
+      ]
+    },
+    "expected": 43
+  },
+  {
+    "id": "case-137",
+    "visibility": "heldout",
+    "input": {
+      "as_of": "2025-01-10",
+      "records": [
+        {
+          "date": "2025-01-03",
+          "value": 99
+        },
+        {
+          "date": "2025-01-04",
+          "value": 10
+        },
+        {
+          "date": "2025-01-10",
+          "value": 2
+        },
+        {
+          "date": "2025-01-11",
+          "value": 50
+        }
+      ]
+    },
+    "expected": 12
+  },
+  {
+    "id": "boundary-empty",
+    "visibility": "heldout",
+    "input": {
+      "as_of": "2025-01-01",
+      "records": []
+    },
+    "expected": 0
+  }
+]

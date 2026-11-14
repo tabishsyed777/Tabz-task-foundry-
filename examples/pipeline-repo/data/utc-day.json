@@ -1,0 +1,200 @@
+[
+  {
+    "id": "case-7",
+    "visibility": "visible",
+    "input": {
+      "events": [
+        {
+          "timestamp": "2025-01-02T00:30:00+05:30",
+          "value": 42
+        },
+        {
+          "timestamp": "2025-01-01T23:00:00Z",
+          "value": 2
+        }
+      ]
+    },
+    "expected": {
+      "2025-01-01": 44
+    }
+  },
+  {
+    "id": "case-19",
+    "visibility": "visible",
+    "input": {
+      "events": [
+        {
+          "timestamp": "2025-01-02T00:30:00+05:30",
+          "value": 87
+        },
+        {
+          "timestamp": "2025-01-01T23:00:00Z",
+          "value": 2
+        }
+      ]
+    },
+    "expected": {
+      "2025-01-01": 89
+    }
+  },
+  {
+    "id": "case-101",
+    "visibility": "heldout",
+    "input": {
+      "events": [
+        {
+          "timestamp": "2025-01-02T00:30:00+05:30",
+          "value": 75
+        },
+        {
+          "timestamp": "2025-01-01T23:00:00Z",
+          "value": 2
+        }
+      ]
+    },
+    "expected": {
+      "2025-01-01": 77
+    }
+  },
+  {
+    "id": "case-103",
+    "visibility": "heldout",
+    "input": {
+      "events": [
+        {
+          "timestamp": "2025-01-02T00:30:00+05:30",
+          "value": 92
+        },
+        {
+          "timestamp": "2025-01-01T23:00:00Z",
+          "value": 2
+        }
+      ]
+    },
+    "expected": {
+      "2025-01-01": 94
+    }
+  },
+  {
+    "id": "case-107",
+    "visibility": "heldout",
+    "input": {
+      "events": [
+        {
+          "timestamp": "2025-01-02T00:30:00+05:30",
+          "value": 32
+        },
+        {
+          "timestamp": "2025-01-01T23:00:00Z",
+          "value": 2
+        }
+      ]
+    },
+    "expected": {
+      "2025-01-01": 34
+    }
+  },
+  {
+    "id": "case-109",
+    "visibility": "heldout",
+    "input": {
+      "events": [
+        {
+          "timestamp": "2025-01-02T00:30:00+05:30",
+          "value": 36
+        },
+        {
+          "timestamp": "2025-01-01T23:00:00Z",
+          "value": 2
+        }
+      ]
+    },
+    "expected": {
+      "2025-01-01": 38
+    }
+  },
+  {
+    "id": "case-113",
+    "visibility": "heldout",
+    "input": {
+      "events": [
+        {
+          "timestamp": "2025-01-02T00:30:00+05:30",
+          "value": 4
+        },
+        {
+          "timestamp": "2025-01-01T23:00:00Z",
+          "value": 2
+        }
+      ]
+    },
+    "expected": {
+      "2025-01-01": 6
+    }
+  },
+  {
+    "id": "case-127",
+    "visibility": "heldout",
+    "input": {
+      "events": [
+        {
+          "timestamp": "2025-01-02T00:30:00+05:30",
+          "value": 6
+        },
+        {
+          "timestamp": "2025-01-01T23:00:00Z",
+          "value": 2
+        }
+      ]
+    },
+    "expected": {
+      "2025-01-01": 8
+    }
+  },
+  {
+    "id": "case-131",
+    "visibility": "heldout",
+    "input": {
+      "events": [
+        {
+          "timestamp": "2025-01-02T00:30:00+05:30",
+          "value": 41
+        },
+        {
+          "timestamp": "2025-01-01T23:00:00Z",
+          "value": 2
+        }
+      ]
+    },
+    "expected": {
+      "2025-01-01": 43
+    }
+  },
+  {
+    "id": "case-137",
+    "visibility": "heldout",
+    "input": {
+      "events": [
+        {
+          "timestamp": "2025-01-02T00:30:00+05:30",
+          "value": 10
+        },
+        {
+          "timestamp": "2025-01-01T23:00:00Z",
+          "value": 2
+        }
+      ]
+    },
+    "expected": {
+      "2025-01-01": 12
+    }
+  },
+  {
+    "id": "boundary-empty",
+    "visibility": "heldout",
+    "input": {
+      "events": []
+    },
+    "expected": {}
+  }
+]

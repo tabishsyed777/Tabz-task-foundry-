@@ -1,0 +1,13 @@
+{
+  "id": "composite-identity",
+  "family": "deduplication",
+  "split": "train",
+  "title": "Deduplicate within each tenant",
+  "contract": "Rows contain tenant, id, and value. The pair (tenant,id) is the identity. Keep the last row for each pair and return rows sorted by tenant, then id.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/composite-identity.py",
+  "reference": "reference/composite-identity.py",
+  "cases": "data/composite-identity.json"
+}

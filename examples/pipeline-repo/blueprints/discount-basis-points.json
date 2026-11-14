@@ -1,0 +1,13 @@
+{
+  "id": "discount-basis-points",
+  "family": "money",
+  "split": "train",
+  "title": "Apply a discount without integer truncation",
+  "contract": "Input subtotal_cents and discount_bps are integers; 10000 bps is 100%. Return final cents after discount, rounded half up once. Nonnegative subtotal, bps in 0..10000.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/discount-basis-points.py",
+  "reference": "reference/discount-basis-points.py",
+  "cases": "data/discount-basis-points.json"
+}

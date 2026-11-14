@@ -1,0 +1,13 @@
+{
+  "id": "latest-dimension",
+  "family": "joins",
+  "split": "validation",
+  "title": "Join against the newest dimension version",
+  "contract": "Customer rows have id, integer version, and segment; the greatest version is authoritative. Versions per id are unique. Return order IDs and their customer segment in order; unknowns get null.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/latest-dimension.py",
+  "reference": "reference/latest-dimension.py",
+  "cases": "data/latest-dimension.json"
+}

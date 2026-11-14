@@ -1,0 +1,13 @@
+{
+  "id": "half-open",
+  "family": "windows",
+  "split": "test",
+  "title": "Use half-open numeric reporting windows",
+  "contract": "Given integer start/end and records with integer t and id, return IDs in input order for start <= t < end. Empty windows return an empty list.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/half-open.py",
+  "reference": "reference/half-open.py",
+  "cases": "data/half-open.json"
+}

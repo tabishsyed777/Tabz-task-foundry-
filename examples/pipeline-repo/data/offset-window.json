@@ -1,0 +1,222 @@
+[
+  {
+    "id": "case-7",
+    "visibility": "visible",
+    "input": {
+      "start": "2025-01-01T00:00:00Z",
+      "end": "2025-01-01T01:00:00Z",
+      "events": [
+        {
+          "id": "41",
+          "timestamp": "2025-01-01T05:45:00+05:30"
+        },
+        {
+          "id": "outside",
+          "timestamp": "2025-01-01T00:30:00-02:00"
+        }
+      ]
+    },
+    "expected": [
+      "41"
+    ]
+  },
+  {
+    "id": "case-19",
+    "visibility": "visible",
+    "input": {
+      "start": "2025-01-01T00:00:00Z",
+      "end": "2025-01-01T01:00:00Z",
+      "events": [
+        {
+          "id": "86",
+          "timestamp": "2025-01-01T05:45:00+05:30"
+        },
+        {
+          "id": "outside",
+          "timestamp": "2025-01-01T00:30:00-02:00"
+        }
+      ]
+    },
+    "expected": [
+      "86"
+    ]
+  },
+  {
+    "id": "case-101",
+    "visibility": "heldout",
+    "input": {
+      "start": "2025-01-01T00:00:00Z",
+      "end": "2025-01-01T01:00:00Z",
+      "events": [
+        {
+          "id": "74",
+          "timestamp": "2025-01-01T05:45:00+05:30"
+        },
+        {
+          "id": "outside",
+          "timestamp": "2025-01-01T00:30:00-02:00"
+        }
+      ]
+    },
+    "expected": [
+      "74"
+    ]
+  },
+  {
+    "id": "case-103",
+    "visibility": "heldout",
+    "input": {
+      "start": "2025-01-01T00:00:00Z",
+      "end": "2025-01-01T01:00:00Z",
+      "events": [
+        {
+          "id": "91",
+          "timestamp": "2025-01-01T05:45:00+05:30"
+        },
+        {
+          "id": "outside",
+          "timestamp": "2025-01-01T00:30:00-02:00"
+        }
+      ]
+    },
+    "expected": [
+      "91"
+    ]
+  },
+  {
+    "id": "case-107",
+    "visibility": "heldout",
+    "input": {
+      "start": "2025-01-01T00:00:00Z",
+      "end": "2025-01-01T01:00:00Z",
+      "events": [
+        {
+          "id": "31",
+          "timestamp": "2025-01-01T05:45:00+05:30"
+        },
+        {
+          "id": "outside",
+          "timestamp": "2025-01-01T00:30:00-02:00"
+        }
+      ]
+    },
+    "expected": [
+      "31"
+    ]
+  },
+  {
+    "id": "case-109",
+    "visibility": "heldout",
+    "input": {
+      "start": "2025-01-01T00:00:00Z",
+      "end": "2025-01-01T01:00:00Z",
+      "events": [
+        {
+          "id": "35",
+          "timestamp": "2025-01-01T05:45:00+05:30"
+        },
+        {
+          "id": "outside",
+          "timestamp": "2025-01-01T00:30:00-02:00"
+        }
+      ]
+    },
+    "expected": [
+      "35"
+    ]
+  },
+  {
+    "id": "case-113",
+    "visibility": "heldout",
+    "input": {
+      "start": "2025-01-01T00:00:00Z",
+      "end": "2025-01-01T01:00:00Z",
+      "events": [
+        {
+          "id": "3",
+          "timestamp": "2025-01-01T05:45:00+05:30"
+        },
+        {
+          "id": "outside",
+          "timestamp": "2025-01-01T00:30:00-02:00"
+        }
+      ]
+    },
+    "expected": [
+      "3"
+    ]
+  },
+  {
+    "id": "case-127",
+    "visibility": "heldout",
+    "input": {
+      "start": "2025-01-01T00:00:00Z",
+      "end": "2025-01-01T01:00:00Z",
+      "events": [
+        {
+          "id": "5",
+          "timestamp": "2025-01-01T05:45:00+05:30"
+        },
+        {
+          "id": "outside",
+          "timestamp": "2025-01-01T00:30:00-02:00"
+        }
+      ]
+    },
+    "expected": [
+      "5"
+    ]
+  },
+  {
+    "id": "case-131",
+    "visibility": "heldout",
+    "input": {
+      "start": "2025-01-01T00:00:00Z",
+      "end": "2025-01-01T01:00:00Z",
+      "events": [
+        {
+          "id": "40",
+          "timestamp": "2025-01-01T05:45:00+05:30"
+        },
+        {
+          "id": "outside",
+          "timestamp": "2025-01-01T00:30:00-02:00"
+        }
+      ]
+    },
+    "expected": [
+      "40"
+    ]
+  },
+  {
+    "id": "case-137",
+    "visibility": "heldout",
+    "input": {
+      "start": "2025-01-01T00:00:00Z",
+      "end": "2025-01-01T01:00:00Z",
+      "events": [
+        {
+          "id": "9",
+          "timestamp": "2025-01-01T05:45:00+05:30"
+        },
+        {
+          "id": "outside",
+          "timestamp": "2025-01-01T00:30:00-02:00"
+        }
+      ]
+    },
+    "expected": [
+      "9"
+    ]
+  },
+  {
+    "id": "boundary-empty",
+    "visibility": "heldout",
+    "input": {
+      "start": "2025-01-01T00:00:00Z",
+      "end": "2025-01-02T00:00:00Z",
+      "events": []
+    },
+    "expected": []
+  }
+]

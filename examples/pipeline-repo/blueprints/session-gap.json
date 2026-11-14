@@ -1,0 +1,13 @@
+{
+  "id": "session-gap",
+  "family": "windows",
+  "split": "test",
+  "title": "Start a session only after the idle gap is exceeded",
+  "contract": "Sort integer event times. Return a list of sessions, each a list of times. A new session starts only when the gap from the preceding time is strictly greater than gap. Equal times stay together.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/session-gap.py",
+  "reference": "reference/session-gap.py",
+  "cases": "data/session-gap.json"
+}

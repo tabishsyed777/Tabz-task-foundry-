@@ -1,0 +1,13 @@
+{
+  "id": "tenant-join",
+  "family": "joins",
+  "split": "validation",
+  "title": "Join customers using tenant and customer ID",
+  "contract": "Customers are unique by (tenant,id). Orders contain tenant and customer_id. Return customer names in order, using null if the pair does not exist.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/tenant-join.py",
+  "reference": "reference/tenant-join.py",
+  "cases": "data/tenant-join.json"
+}

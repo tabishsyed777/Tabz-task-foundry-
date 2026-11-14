@@ -1,0 +1,145 @@
+[
+  {
+    "id": "case-7",
+    "visibility": "visible",
+    "input": {
+      "total_cents": 251,
+      "count": 3
+    },
+    "expected": [
+      84,
+      84,
+      83
+    ]
+  },
+  {
+    "id": "case-19",
+    "visibility": "visible",
+    "input": {
+      "total_cents": 524,
+      "count": 3
+    },
+    "expected": [
+      175,
+      175,
+      174
+    ]
+  },
+  {
+    "id": "case-101",
+    "visibility": "heldout",
+    "input": {
+      "total_cents": 449,
+      "count": 3
+    },
+    "expected": [
+      150,
+      150,
+      149
+    ]
+  },
+  {
+    "id": "case-103",
+    "visibility": "heldout",
+    "input": {
+      "total_cents": 551,
+      "count": 3
+    },
+    "expected": [
+      184,
+      184,
+      183
+    ]
+  },
+  {
+    "id": "case-107",
+    "visibility": "heldout",
+    "input": {
+      "total_cents": 194,
+      "count": 3
+    },
+    "expected": [
+      65,
+      65,
+      64
+    ]
+  },
+  {
+    "id": "case-109",
+    "visibility": "heldout",
+    "input": {
+      "total_cents": 218,
+      "count": 3
+    },
+    "expected": [
+      73,
+      73,
+      72
+    ]
+  },
+  {
+    "id": "case-113",
+    "visibility": "heldout",
+    "input": {
+      "total_cents": 26,
+      "count": 3
+    },
+    "expected": [
+      9,
+      9,
+      8
+    ]
+  },
+  {
+    "id": "case-127",
+    "visibility": "heldout",
+    "input": {
+      "total_cents": 38,
+      "count": 3
+    },
+    "expected": [
+      13,
+      13,
+      12
+    ]
+  },
+  {
+    "id": "case-131",
+    "visibility": "heldout",
+    "input": {
+      "total_cents": 245,
+      "count": 3
+    },
+    "expected": [
+      82,
+      82,
+      81
+    ]
+  },
+  {
+    "id": "case-137",
+    "visibility": "heldout",
+    "input": {
+      "total_cents": 59,
+      "count": 3
+    },
+    "expected": [
+      20,
+      20,
+      19
+    ]
+  },
+  {
+    "id": "boundary-empty",
+    "visibility": "heldout",
+    "input": {
+      "total_cents": 0,
+      "count": 3
+    },
+    "expected": [
+      0,
+      0,
+      0
+    ]
+  }
+]

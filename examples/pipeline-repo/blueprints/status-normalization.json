@@ -1,0 +1,13 @@
+{
+  "id": "status-normalization",
+  "family": "schema",
+  "split": "test",
+  "title": "Normalize statuses without accepting unknown categories",
+  "contract": "Trim and lowercase string statuses. Map paid and settled to paid, refund and refunded to refunded, pending to pending; unknown strings and null map to unknown. Return one output per input.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/status-normalization.py",
+  "reference": "reference/status-normalization.py",
+  "cases": "data/status-normalization.json"
+}

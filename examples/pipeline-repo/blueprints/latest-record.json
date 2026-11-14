@@ -1,0 +1,13 @@
+{
+  "id": "latest-record",
+  "family": "deduplication",
+  "split": "train",
+  "title": "Keep the latest customer update",
+  "contract": "Input rows contain id, integer version, and value. Return one row per id: greatest version wins; the last input row wins equal-version ties. Sort output by id.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/latest-record.py",
+  "reference": "reference/latest-record.py",
+  "cases": "data/latest-record.json"
+}

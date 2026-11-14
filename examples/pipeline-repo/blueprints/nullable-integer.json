@@ -1,0 +1,13 @@
+{
+  "id": "nullable-integer",
+  "family": "schema",
+  "split": "test",
+  "title": "Parse nullable integer fields consistently",
+  "contract": "Values are null, empty/whitespace strings, integers, or strings containing signed integers. Map null and blank strings to null; convert all other values to integers. Booleans are not inputs.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/nullable-integer.py",
+  "reference": "reference/nullable-integer.py",
+  "cases": "data/nullable-integer.json"
+}

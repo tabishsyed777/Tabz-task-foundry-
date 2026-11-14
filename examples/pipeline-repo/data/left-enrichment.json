@@ -1,0 +1,391 @@
+[
+  {
+    "id": "case-7",
+    "visibility": "visible",
+    "input": {
+      "customers": [
+        {
+          "id": "known",
+          "name": "Ada"
+        }
+      ],
+      "orders": [
+        {
+          "id": "x",
+          "customer_id": "known",
+          "cents": 42
+        },
+        {
+          "id": "y",
+          "customer_id": "missing",
+          "cents": 9
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "x",
+        "customer_id": "known",
+        "cents": 42,
+        "customer_name": "Ada"
+      },
+      {
+        "id": "y",
+        "customer_id": "missing",
+        "cents": 9,
+        "customer_name": null
+      }
+    ]
+  },
+  {
+    "id": "case-19",
+    "visibility": "visible",
+    "input": {
+      "customers": [
+        {
+          "id": "known",
+          "name": "Ada"
+        }
+      ],
+      "orders": [
+        {
+          "id": "x",
+          "customer_id": "known",
+          "cents": 87
+        },
+        {
+          "id": "y",
+          "customer_id": "missing",
+          "cents": 9
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "x",
+        "customer_id": "known",
+        "cents": 87,
+        "customer_name": "Ada"
+      },
+      {
+        "id": "y",
+        "customer_id": "missing",
+        "cents": 9,
+        "customer_name": null
+      }
+    ]
+  },
+  {
+    "id": "case-101",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "id": "known",
+          "name": "Ada"
+        }
+      ],
+      "orders": [
+        {
+          "id": "x",
+          "customer_id": "known",
+          "cents": 75
+        },
+        {
+          "id": "y",
+          "customer_id": "missing",
+          "cents": 9
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "x",
+        "customer_id": "known",
+        "cents": 75,
+        "customer_name": "Ada"
+      },
+      {
+        "id": "y",
+        "customer_id": "missing",
+        "cents": 9,
+        "customer_name": null
+      }
+    ]
+  },
+  {
+    "id": "case-103",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "id": "known",
+          "name": "Ada"
+        }
+      ],
+      "orders": [
+        {
+          "id": "x",
+          "customer_id": "known",
+          "cents": 92
+        },
+        {
+          "id": "y",
+          "customer_id": "missing",
+          "cents": 9
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "x",
+        "customer_id": "known",
+        "cents": 92,
+        "customer_name": "Ada"
+      },
+      {
+        "id": "y",
+        "customer_id": "missing",
+        "cents": 9,
+        "customer_name": null
+      }
+    ]
+  },
+  {
+    "id": "case-107",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "id": "known",
+          "name": "Ada"
+        }
+      ],
+      "orders": [
+        {
+          "id": "x",
+          "customer_id": "known",
+          "cents": 32
+        },
+        {
+          "id": "y",
+          "customer_id": "missing",
+          "cents": 9
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "x",
+        "customer_id": "known",
+        "cents": 32,
+        "customer_name": "Ada"
+      },
+      {
+        "id": "y",
+        "customer_id": "missing",
+        "cents": 9,
+        "customer_name": null
+      }
+    ]
+  },
+  {
+    "id": "case-109",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "id": "known",
+          "name": "Ada"
+        }
+      ],
+      "orders": [
+        {
+          "id": "x",
+          "customer_id": "known",
+          "cents": 36
+        },
+        {
+          "id": "y",
+          "customer_id": "missing",
+          "cents": 9
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "x",
+        "customer_id": "known",
+        "cents": 36,
+        "customer_name": "Ada"
+      },
+      {
+        "id": "y",
+        "customer_id": "missing",
+        "cents": 9,
+        "customer_name": null
+      }
+    ]
+  },
+  {
+    "id": "case-113",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "id": "known",
+          "name": "Ada"
+        }
+      ],
+      "orders": [
+        {
+          "id": "x",
+          "customer_id": "known",
+          "cents": 4
+        },
+        {
+          "id": "y",
+          "customer_id": "missing",
+          "cents": 9
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "x",
+        "customer_id": "known",
+        "cents": 4,
+        "customer_name": "Ada"
+      },
+      {
+        "id": "y",
+        "customer_id": "missing",
+        "cents": 9,
+        "customer_name": null
+      }
+    ]
+  },
+  {
+    "id": "case-127",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "id": "known",
+          "name": "Ada"
+        }
+      ],
+      "orders": [
+        {
+          "id": "x",
+          "customer_id": "known",
+          "cents": 6
+        },
+        {
+          "id": "y",
+          "customer_id": "missing",
+          "cents": 9
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "x",
+        "customer_id": "known",
+        "cents": 6,
+        "customer_name": "Ada"
+      },
+      {
+        "id": "y",
+        "customer_id": "missing",
+        "cents": 9,
+        "customer_name": null
+      }
+    ]
+  },
+  {
+    "id": "case-131",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "id": "known",
+          "name": "Ada"
+        }
+      ],
+      "orders": [
+        {
+          "id": "x",
+          "customer_id": "known",
+          "cents": 41
+        },
+        {
+          "id": "y",
+          "customer_id": "missing",
+          "cents": 9
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "x",
+        "customer_id": "known",
+        "cents": 41,
+        "customer_name": "Ada"
+      },
+      {
+        "id": "y",
+        "customer_id": "missing",
+        "cents": 9,
+        "customer_name": null
+      }
+    ]
+  },
+  {
+    "id": "case-137",
+    "visibility": "heldout",
+    "input": {
+      "customers": [
+        {
+          "id": "known",
+          "name": "Ada"
+        }
+      ],
+      "orders": [
+        {
+          "id": "x",
+          "customer_id": "known",
+          "cents": 10
+        },
+        {
+          "id": "y",
+          "customer_id": "missing",
+          "cents": 9
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "x",
+        "customer_id": "known",
+        "cents": 10,
+        "customer_name": "Ada"
+      },
+      {
+        "id": "y",
+        "customer_id": "missing",
+        "cents": 9,
+        "customer_name": null
+      }
+    ]
+  },
+  {
+    "id": "boundary-empty",
+    "visibility": "heldout",
+    "input": {
+      "customers": [],
+      "orders": []
+    },
+    "expected": []
+  }
+]

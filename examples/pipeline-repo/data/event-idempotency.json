@@ -1,0 +1,270 @@
+[
+  {
+    "id": "case-7",
+    "visibility": "visible",
+    "input": {
+      "events": [
+        {
+          "event_id": "x",
+          "customer": "a",
+          "cents": 332
+        },
+        {
+          "event_id": "y",
+          "customer": "a",
+          "cents": 17
+        },
+        {
+          "event_id": "x",
+          "customer": "a",
+          "cents": 332
+        }
+      ]
+    },
+    "expected": {
+      "a": 349
+    }
+  },
+  {
+    "id": "case-19",
+    "visibility": "visible",
+    "input": {
+      "events": [
+        {
+          "event_id": "x",
+          "customer": "a",
+          "cents": 694
+        },
+        {
+          "event_id": "y",
+          "customer": "a",
+          "cents": 17
+        },
+        {
+          "event_id": "x",
+          "customer": "a",
+          "cents": 694
+        }
+      ]
+    },
+    "expected": {
+      "a": 711
+    }
+  },
+  {
+    "id": "case-101",
+    "visibility": "heldout",
+    "input": {
+      "events": [
+        {
+          "event_id": "x",
+          "customer": "a",
+          "cents": 596
+        },
+        {
+          "event_id": "y",
+          "customer": "a",
+          "cents": 17
+        },
+        {
+          "event_id": "x",
+          "customer": "a",
+          "cents": 596
+        }
+      ]
+    },
+    "expected": {
+      "a": 613
+    }
+  },
+  {
+    "id": "case-103",
+    "visibility": "heldout",
+    "input": {
+      "events": [
+        {
+          "event_id": "x",
+          "customer": "a",
+          "cents": 732
+        },
+        {
+          "event_id": "y",
+          "customer": "a",
+          "cents": 17
+        },
+        {
+          "event_id": "x",
+          "customer": "a",
+          "cents": 732
+        }
+      ]
+    },
+    "expected": {
+      "a": 749
+    }
+  },
+  {
+    "id": "case-107",
+    "visibility": "heldout",
+    "input": {
+      "events": [
+        {
+          "event_id": "x",
+          "customer": "a",
+          "cents": 253
+        },
+        {
+          "event_id": "y",
+          "customer": "a",
+          "cents": 17
+        },
+        {
+          "event_id": "x",
+          "customer": "a",
+          "cents": 253
+        }
+      ]
+    },
+    "expected": {
+      "a": 270
+    }
+  },
+  {
+    "id": "case-109",
+    "visibility": "heldout",
+    "input": {
+      "events": [
+        {
+          "event_id": "x",
+          "customer": "a",
+          "cents": 287
+        },
+        {
+          "event_id": "y",
+          "customer": "a",
+          "cents": 17
+        },
+        {
+          "event_id": "x",
+          "customer": "a",
+          "cents": 287
+        }
+      ]
+    },
+    "expected": {
+      "a": 304
+    }
+  },
+  {
+    "id": "case-113",
+    "visibility": "heldout",
+    "input": {
+      "events": [
+        {
+          "event_id": "x",
+          "customer": "a",
+          "cents": 32
+        },
+        {
+          "event_id": "y",
+          "customer": "a",
+          "cents": 17
+        },
+        {
+          "event_id": "x",
+          "customer": "a",
+          "cents": 32
+        }
+      ]
+    },
+    "expected": {
+      "a": 49
+    }
+  },
+  {
+    "id": "case-127",
+    "visibility": "heldout",
+    "input": {
+      "events": [
+        {
+          "event_id": "x",
+          "customer": "a",
+          "cents": 46
+        },
+        {
+          "event_id": "y",
+          "customer": "a",
+          "cents": 17
+        },
+        {
+          "event_id": "x",
+          "customer": "a",
+          "cents": 46
+        }
+      ]
+    },
+    "expected": {
+      "a": 63
+    }
+  },
+  {
+    "id": "case-131",
+    "visibility": "heldout",
+    "input": {
+      "events": [
+        {
+          "event_id": "x",
+          "customer": "a",
+          "cents": 324
+        },
+        {
+          "event_id": "y",
+          "customer": "a",
+          "cents": 17
+        },
+        {
+          "event_id": "x",
+          "customer": "a",
+          "cents": 324
+        }
+      ]
+    },
+    "expected": {
+      "a": 341
+    }
+  },
+  {
+    "id": "case-137",
+    "visibility": "heldout",
+    "input": {
+      "events": [
+        {
+          "event_id": "x",
+          "customer": "a",
+          "cents": 75
+        },
+        {
+          "event_id": "y",
+          "customer": "a",
+          "cents": 17
+        },
+        {
+          "event_id": "x",
+          "customer": "a",
+          "cents": 75
+        }
+      ]
+    },
+    "expected": {
+      "a": 92
+    }
+  },
+  {
+    "id": "boundary-empty",
+    "visibility": "heldout",
+    "input": {
+      "events": []
+    },
+    "expected": {}
+  }
+]

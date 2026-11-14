@@ -1,0 +1,328 @@
+[
+  {
+    "id": "case-7",
+    "visibility": "visible",
+    "input": {
+      "orders": [
+        {
+          "id": "a",
+          "total_cents": 431
+        },
+        {
+          "id": "b",
+          "total_cents": 40
+        }
+      ],
+      "items": [
+        {
+          "order_id": "a"
+        },
+        {
+          "order_id": "a"
+        },
+        {
+          "order_id": "orphan"
+        }
+      ]
+    },
+    "expected": {
+      "revenue_cents": 471,
+      "item_count": 2
+    }
+  },
+  {
+    "id": "case-19",
+    "visibility": "visible",
+    "input": {
+      "orders": [
+        {
+          "id": "a",
+          "total_cents": 793
+        },
+        {
+          "id": "b",
+          "total_cents": 40
+        }
+      ],
+      "items": [
+        {
+          "order_id": "a"
+        },
+        {
+          "order_id": "a"
+        },
+        {
+          "order_id": "orphan"
+        }
+      ]
+    },
+    "expected": {
+      "revenue_cents": 833,
+      "item_count": 2
+    }
+  },
+  {
+    "id": "case-101",
+    "visibility": "heldout",
+    "input": {
+      "orders": [
+        {
+          "id": "a",
+          "total_cents": 695
+        },
+        {
+          "id": "b",
+          "total_cents": 40
+        }
+      ],
+      "items": [
+        {
+          "order_id": "a"
+        },
+        {
+          "order_id": "a"
+        },
+        {
+          "order_id": "orphan"
+        }
+      ]
+    },
+    "expected": {
+      "revenue_cents": 735,
+      "item_count": 2
+    }
+  },
+  {
+    "id": "case-103",
+    "visibility": "heldout",
+    "input": {
+      "orders": [
+        {
+          "id": "a",
+          "total_cents": 831
+        },
+        {
+          "id": "b",
+          "total_cents": 40
+        }
+      ],
+      "items": [
+        {
+          "order_id": "a"
+        },
+        {
+          "order_id": "a"
+        },
+        {
+          "order_id": "orphan"
+        }
+      ]
+    },
+    "expected": {
+      "revenue_cents": 871,
+      "item_count": 2
+    }
+  },
+  {
+    "id": "case-107",
+    "visibility": "heldout",
+    "input": {
+      "orders": [
+        {
+          "id": "a",
+          "total_cents": 352
+        },
+        {
+          "id": "b",
+          "total_cents": 40
+        }
+      ],
+      "items": [
+        {
+          "order_id": "a"
+        },
+        {
+          "order_id": "a"
+        },
+        {
+          "order_id": "orphan"
+        }
+      ]
+    },
+    "expected": {
+      "revenue_cents": 392,
+      "item_count": 2
+    }
+  },
+  {
+    "id": "case-109",
+    "visibility": "heldout",
+    "input": {
+      "orders": [
+        {
+          "id": "a",
+          "total_cents": 386
+        },
+        {
+          "id": "b",
+          "total_cents": 40
+        }
+      ],
+      "items": [
+        {
+          "order_id": "a"
+        },
+        {
+          "order_id": "a"
+        },
+        {
+          "order_id": "orphan"
+        }
+      ]
+    },
+    "expected": {
+      "revenue_cents": 426,
+      "item_count": 2
+    }
+  },
+  {
+    "id": "case-113",
+    "visibility": "heldout",
+    "input": {
+      "orders": [
+        {
+          "id": "a",
+          "total_cents": 131
+        },
+        {
+          "id": "b",
+          "total_cents": 40
+        }
+      ],
+      "items": [
+        {
+          "order_id": "a"
+        },
+        {
+          "order_id": "a"
+        },
+        {
+          "order_id": "orphan"
+        }
+      ]
+    },
+    "expected": {
+      "revenue_cents": 171,
+      "item_count": 2
+    }
+  },
+  {
+    "id": "case-127",
+    "visibility": "heldout",
+    "input": {
+      "orders": [
+        {
+          "id": "a",
+          "total_cents": 145
+        },
+        {
+          "id": "b",
+          "total_cents": 40
+        }
+      ],
+      "items": [
+        {
+          "order_id": "a"
+        },
+        {
+          "order_id": "a"
+        },
+        {
+          "order_id": "orphan"
+        }
+      ]
+    },
+    "expected": {
+      "revenue_cents": 185,
+      "item_count": 2
+    }
+  },
+  {
+    "id": "case-131",
+    "visibility": "heldout",
+    "input": {
+      "orders": [
+        {
+          "id": "a",
+          "total_cents": 423
+        },
+        {
+          "id": "b",
+          "total_cents": 40
+        }
+      ],
+      "items": [
+        {
+          "order_id": "a"
+        },
+        {
+          "order_id": "a"
+        },
+        {
+          "order_id": "orphan"
+        }
+      ]
+    },
+    "expected": {
+      "revenue_cents": 463,
+      "item_count": 2
+    }
+  },
+  {
+    "id": "case-137",
+    "visibility": "heldout",
+    "input": {
+      "orders": [
+        {
+          "id": "a",
+          "total_cents": 174
+        },
+        {
+          "id": "b",
+          "total_cents": 40
+        }
+      ],
+      "items": [
+        {
+          "order_id": "a"
+        },
+        {
+          "order_id": "a"
+        },
+        {
+          "order_id": "orphan"
+        }
+      ]
+    },
+    "expected": {
+      "revenue_cents": 214,
+      "item_count": 2
+    }
+  },
+  {
+    "id": "boundary-empty",
+    "visibility": "heldout",
+    "input": {
+      "orders": [],
+      "items": [
+        {
+          "order_id": "missing"
+        }
+      ]
+    },
+    "expected": {
+      "revenue_cents": 0,
+      "item_count": 0
+    }
+  }
+]

@@ -1,0 +1,360 @@
+[
+  {
+    "id": "case-7",
+    "visibility": "visible",
+    "input": {
+      "users": [
+        {
+          "id": "41",
+          "address": null
+        },
+        {
+          "id": "b",
+          "address": {
+            "country": "IN"
+          }
+        },
+        {
+          "id": "c"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "41",
+        "country": "UNKNOWN"
+      },
+      {
+        "id": "b",
+        "country": "IN"
+      },
+      {
+        "id": "c",
+        "country": "UNKNOWN"
+      }
+    ]
+  },
+  {
+    "id": "case-19",
+    "visibility": "visible",
+    "input": {
+      "users": [
+        {
+          "id": "86",
+          "address": null
+        },
+        {
+          "id": "b",
+          "address": {
+            "country": "IN"
+          }
+        },
+        {
+          "id": "c"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "86",
+        "country": "UNKNOWN"
+      },
+      {
+        "id": "b",
+        "country": "IN"
+      },
+      {
+        "id": "c",
+        "country": "UNKNOWN"
+      }
+    ]
+  },
+  {
+    "id": "case-101",
+    "visibility": "heldout",
+    "input": {
+      "users": [
+        {
+          "id": "74",
+          "address": null
+        },
+        {
+          "id": "b",
+          "address": {
+            "country": "IN"
+          }
+        },
+        {
+          "id": "c"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "74",
+        "country": "UNKNOWN"
+      },
+      {
+        "id": "b",
+        "country": "IN"
+      },
+      {
+        "id": "c",
+        "country": "UNKNOWN"
+      }
+    ]
+  },
+  {
+    "id": "case-103",
+    "visibility": "heldout",
+    "input": {
+      "users": [
+        {
+          "id": "91",
+          "address": null
+        },
+        {
+          "id": "b",
+          "address": {
+            "country": "IN"
+          }
+        },
+        {
+          "id": "c"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "91",
+        "country": "UNKNOWN"
+      },
+      {
+        "id": "b",
+        "country": "IN"
+      },
+      {
+        "id": "c",
+        "country": "UNKNOWN"
+      }
+    ]
+  },
+  {
+    "id": "case-107",
+    "visibility": "heldout",
+    "input": {
+      "users": [
+        {
+          "id": "31",
+          "address": null
+        },
+        {
+          "id": "b",
+          "address": {
+            "country": "IN"
+          }
+        },
+        {
+          "id": "c"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "31",
+        "country": "UNKNOWN"
+      },
+      {
+        "id": "b",
+        "country": "IN"
+      },
+      {
+        "id": "c",
+        "country": "UNKNOWN"
+      }
+    ]
+  },
+  {
+    "id": "case-109",
+    "visibility": "heldout",
+    "input": {
+      "users": [
+        {
+          "id": "35",
+          "address": null
+        },
+        {
+          "id": "b",
+          "address": {
+            "country": "IN"
+          }
+        },
+        {
+          "id": "c"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "35",
+        "country": "UNKNOWN"
+      },
+      {
+        "id": "b",
+        "country": "IN"
+      },
+      {
+        "id": "c",
+        "country": "UNKNOWN"
+      }
+    ]
+  },
+  {
+    "id": "case-113",
+    "visibility": "heldout",
+    "input": {
+      "users": [
+        {
+          "id": "3",
+          "address": null
+        },
+        {
+          "id": "b",
+          "address": {
+            "country": "IN"
+          }
+        },
+        {
+          "id": "c"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "3",
+        "country": "UNKNOWN"
+      },
+      {
+        "id": "b",
+        "country": "IN"
+      },
+      {
+        "id": "c",
+        "country": "UNKNOWN"
+      }
+    ]
+  },
+  {
+    "id": "case-127",
+    "visibility": "heldout",
+    "input": {
+      "users": [
+        {
+          "id": "5",
+          "address": null
+        },
+        {
+          "id": "b",
+          "address": {
+            "country": "IN"
+          }
+        },
+        {
+          "id": "c"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "5",
+        "country": "UNKNOWN"
+      },
+      {
+        "id": "b",
+        "country": "IN"
+      },
+      {
+        "id": "c",
+        "country": "UNKNOWN"
+      }
+    ]
+  },
+  {
+    "id": "case-131",
+    "visibility": "heldout",
+    "input": {
+      "users": [
+        {
+          "id": "40",
+          "address": null
+        },
+        {
+          "id": "b",
+          "address": {
+            "country": "IN"
+          }
+        },
+        {
+          "id": "c"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "40",
+        "country": "UNKNOWN"
+      },
+      {
+        "id": "b",
+        "country": "IN"
+      },
+      {
+        "id": "c",
+        "country": "UNKNOWN"
+      }
+    ]
+  },
+  {
+    "id": "case-137",
+    "visibility": "heldout",
+    "input": {
+      "users": [
+        {
+          "id": "9",
+          "address": null
+        },
+        {
+          "id": "b",
+          "address": {
+            "country": "IN"
+          }
+        },
+        {
+          "id": "c"
+        }
+      ]
+    },
+    "expected": [
+      {
+        "id": "9",
+        "country": "UNKNOWN"
+      },
+      {
+        "id": "b",
+        "country": "IN"
+      },
+      {
+        "id": "c",
+        "country": "UNKNOWN"
+      }
+    ]
+  },
+  {
+    "id": "boundary-empty",
+    "visibility": "heldout",
+    "input": {
+      "users": []
+    },
+    "expected": []
+  }
+]

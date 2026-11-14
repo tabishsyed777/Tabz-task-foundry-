@@ -1,0 +1,101 @@
+[
+  {
+    "id": "case-7",
+    "visibility": "visible",
+    "input": {
+      "start": "2025-01-01T10:00:00+05:30",
+      "end": "2025-01-01T05:20:00Z"
+    },
+    "expected": 3000
+  },
+  {
+    "id": "case-19",
+    "visibility": "visible",
+    "input": {
+      "start": "2025-01-01T10:00:00+05:30",
+      "end": "2025-01-01T05:43:00Z"
+    },
+    "expected": 4380
+  },
+  {
+    "id": "case-101",
+    "visibility": "heldout",
+    "input": {
+      "start": "2025-01-01T10:00:00+05:30",
+      "end": "2025-01-01T05:37:00Z"
+    },
+    "expected": 4020
+  },
+  {
+    "id": "case-103",
+    "visibility": "heldout",
+    "input": {
+      "start": "2025-01-01T10:00:00+05:30",
+      "end": "2025-01-01T05:45:00Z"
+    },
+    "expected": 4500
+  },
+  {
+    "id": "case-107",
+    "visibility": "heldout",
+    "input": {
+      "start": "2025-01-01T10:00:00+05:30",
+      "end": "2025-01-01T05:15:00Z"
+    },
+    "expected": 2700
+  },
+  {
+    "id": "case-109",
+    "visibility": "heldout",
+    "input": {
+      "start": "2025-01-01T10:00:00+05:30",
+      "end": "2025-01-01T05:17:00Z"
+    },
+    "expected": 2820
+  },
+  {
+    "id": "case-113",
+    "visibility": "heldout",
+    "input": {
+      "start": "2025-01-01T10:00:00+05:30",
+      "end": "2025-01-01T05:01:00Z"
+    },
+    "expected": 1860
+  },
+  {
+    "id": "case-127",
+    "visibility": "heldout",
+    "input": {
+      "start": "2025-01-01T10:00:00+05:30",
+      "end": "2025-01-01T05:02:00Z"
+    },
+    "expected": 1920
+  },
+  {
+    "id": "case-131",
+    "visibility": "heldout",
+    "input": {
+      "start": "2025-01-01T10:00:00+05:30",
+      "end": "2025-01-01T05:20:00Z"
+    },
+    "expected": 3000
+  },
+  {
+    "id": "case-137",
+    "visibility": "heldout",
+    "input": {
+      "start": "2025-01-01T10:00:00+05:30",
+      "end": "2025-01-01T05:04:00Z"
+    },
+    "expected": 2040
+  },
+  {
+    "id": "boundary-empty",
+    "visibility": "heldout",
+    "input": {
+      "start": "2025-01-01T00:00:00Z",
+      "end": "2025-01-01T00:00:00+00:00"
+    },
+    "expected": 0
+  }
+]

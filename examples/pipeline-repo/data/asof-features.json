@@ -1,0 +1,297 @@
+[
+  {
+    "id": "case-7",
+    "visibility": "visible",
+    "input": {
+      "updates": [
+        {
+          "t": 3,
+          "value": 51
+        },
+        {
+          "t": 9,
+          "value": 52
+        }
+      ],
+      "queries": [
+        1,
+        3,
+        5,
+        9
+      ]
+    },
+    "expected": [
+      null,
+      51,
+      51,
+      52
+    ]
+  },
+  {
+    "id": "case-19",
+    "visibility": "visible",
+    "input": {
+      "updates": [
+        {
+          "t": 3,
+          "value": 96
+        },
+        {
+          "t": 9,
+          "value": 97
+        }
+      ],
+      "queries": [
+        1,
+        3,
+        5,
+        9
+      ]
+    },
+    "expected": [
+      null,
+      96,
+      96,
+      97
+    ]
+  },
+  {
+    "id": "case-101",
+    "visibility": "heldout",
+    "input": {
+      "updates": [
+        {
+          "t": 3,
+          "value": 84
+        },
+        {
+          "t": 9,
+          "value": 85
+        }
+      ],
+      "queries": [
+        1,
+        3,
+        5,
+        9
+      ]
+    },
+    "expected": [
+      null,
+      84,
+      84,
+      85
+    ]
+  },
+  {
+    "id": "case-103",
+    "visibility": "heldout",
+    "input": {
+      "updates": [
+        {
+          "t": 3,
+          "value": 68
+        },
+        {
+          "t": 9,
+          "value": 69
+        }
+      ],
+      "queries": [
+        1,
+        3,
+        5,
+        9
+      ]
+    },
+    "expected": [
+      null,
+      68,
+      68,
+      69
+    ]
+  },
+  {
+    "id": "case-107",
+    "visibility": "heldout",
+    "input": {
+      "updates": [
+        {
+          "t": 3,
+          "value": 41
+        },
+        {
+          "t": 9,
+          "value": 42
+        }
+      ],
+      "queries": [
+        1,
+        3,
+        5,
+        9
+      ]
+    },
+    "expected": [
+      null,
+      41,
+      41,
+      42
+    ]
+  },
+  {
+    "id": "case-109",
+    "visibility": "heldout",
+    "input": {
+      "updates": [
+        {
+          "t": 3,
+          "value": 45
+        },
+        {
+          "t": 9,
+          "value": 46
+        }
+      ],
+      "queries": [
+        1,
+        3,
+        5,
+        9
+      ]
+    },
+    "expected": [
+      null,
+      45,
+      45,
+      46
+    ]
+  },
+  {
+    "id": "case-113",
+    "visibility": "heldout",
+    "input": {
+      "updates": [
+        {
+          "t": 3,
+          "value": 13
+        },
+        {
+          "t": 9,
+          "value": 14
+        }
+      ],
+      "queries": [
+        1,
+        3,
+        5,
+        9
+      ]
+    },
+    "expected": [
+      null,
+      13,
+      13,
+      14
+    ]
+  },
+  {
+    "id": "case-127",
+    "visibility": "heldout",
+    "input": {
+      "updates": [
+        {
+          "t": 3,
+          "value": 15
+        },
+        {
+          "t": 9,
+          "value": 16
+        }
+      ],
+      "queries": [
+        1,
+        3,
+        5,
+        9
+      ]
+    },
+    "expected": [
+      null,
+      15,
+      15,
+      16
+    ]
+  },
+  {
+    "id": "case-131",
+    "visibility": "heldout",
+    "input": {
+      "updates": [
+        {
+          "t": 3,
+          "value": 50
+        },
+        {
+          "t": 9,
+          "value": 51
+        }
+      ],
+      "queries": [
+        1,
+        3,
+        5,
+        9
+      ]
+    },
+    "expected": [
+      null,
+      50,
+      50,
+      51
+    ]
+  },
+  {
+    "id": "case-137",
+    "visibility": "heldout",
+    "input": {
+      "updates": [
+        {
+          "t": 3,
+          "value": 19
+        },
+        {
+          "t": 9,
+          "value": 20
+        }
+      ],
+      "queries": [
+        1,
+        3,
+        5,
+        9
+      ]
+    },
+    "expected": [
+      null,
+      19,
+      19,
+      20
+    ]
+  },
+  {
+    "id": "boundary-empty",
+    "visibility": "heldout",
+    "input": {
+      "updates": [],
+      "queries": [
+        0,
+        1
+      ]
+    },
+    "expected": [
+      null,
+      null
+    ]
+  }
+]

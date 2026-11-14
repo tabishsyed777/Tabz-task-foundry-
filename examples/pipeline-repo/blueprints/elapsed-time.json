@@ -1,0 +1,13 @@
+{
+  "id": "elapsed-time",
+  "family": "timezones",
+  "split": "train",
+  "title": "Calculate elapsed seconds across offsets",
+  "contract": "Return integer elapsed seconds from start to end, respecting each timestamp offset. Inputs have whole seconds and explicit offsets; signed results are allowed.",
+  "difficulty": "medium",
+  "license": "MIT",
+  "provenance": "TaskFoundry authored synthetic pipeline and fixtures; no customer data or third-party repository extracted.",
+  "candidate": "pipelines/elapsed-time.py",
+  "reference": "reference/elapsed-time.py",
+  "cases": "data/elapsed-time.json"
+}

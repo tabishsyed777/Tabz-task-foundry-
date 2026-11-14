@@ -1,0 +1,210 @@
+[
+  {
+    "id": "case-7",
+    "visibility": "visible",
+    "input": {
+      "values": [
+        null,
+        " ",
+        0,
+        "0",
+        " -42 "
+      ]
+    },
+    "expected": [
+      null,
+      null,
+      0,
+      0,
+      -42
+    ]
+  },
+  {
+    "id": "case-19",
+    "visibility": "visible",
+    "input": {
+      "values": [
+        null,
+        " ",
+        0,
+        "0",
+        " -87 "
+      ]
+    },
+    "expected": [
+      null,
+      null,
+      0,
+      0,
+      -87
+    ]
+  },
+  {
+    "id": "case-101",
+    "visibility": "heldout",
+    "input": {
+      "values": [
+        null,
+        " ",
+        0,
+        "0",
+        " -75 "
+      ]
+    },
+    "expected": [
+      null,
+      null,
+      0,
+      0,
+      -75
+    ]
+  },
+  {
+    "id": "case-103",
+    "visibility": "heldout",
+    "input": {
+      "values": [
+        null,
+        " ",
+        0,
+        "0",
+        " -92 "
+      ]
+    },
+    "expected": [
+      null,
+      null,
+      0,
+      0,
+      -92
+    ]
+  },
+  {
+    "id": "case-107",
+    "visibility": "heldout",
+    "input": {
+      "values": [
+        null,
+        " ",
+        0,
+        "0",
+        " -32 "
+      ]
+    },
+    "expected": [
+      null,
+      null,
+      0,
+      0,
+      -32
+    ]
+  },
+  {
+    "id": "case-109",
+    "visibility": "heldout",
+    "input": {
+      "values": [
+        null,
+        " ",
+        0,
+        "0",
+        " -36 "
+      ]
+    },
+    "expected": [
+      null,
+      null,
+      0,
+      0,
+      -36
+    ]
+  },
+  {
+    "id": "case-113",
+    "visibility": "heldout",
+    "input": {
+      "values": [
+        null,
+        " ",
+        0,
+        "0",
+        " -4 "
+      ]
+    },
+    "expected": [
+      null,
+      null,
+      0,
+      0,
+      -4
+    ]
+  },
+  {
+    "id": "case-127",
+    "visibility": "heldout",
+    "input": {
+      "values": [
+        null,
+        " ",
+        0,
+        "0",
+        " -6 "
+      ]
+    },
+    "expected": [
+      null,
+      null,
+      0,
+      0,
+      -6
+    ]
+  },
+  {
+    "id": "case-131",
+    "visibility": "heldout",
+    "input": {
+      "values": [
+        null,
+        " ",
+        0,
+        "0",
+        " -41 "
+      ]
+    },
+    "expected": [
+      null,
+      null,
+      0,
+      0,
+      -41
+    ]
+  },
+  {
+    "id": "case-137",
+    "visibility": "heldout",
+    "input": {
+      "values": [
+        null,
+        " ",
+        0,
+        "0",
+        " -10 "
+      ]
+    },
+    "expected": [
+      null,
+      null,
+      0,
+      0,
+      -10
+    ]
+  },
+  {
+    "id": "boundary-empty",
+    "visibility": "heldout",
+    "input": {
+      "values": []
+    },
+    "expected": []
+  }
+]
